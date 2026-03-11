@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
 
 export default async function DashboardPage() {
   const session = await auth();
@@ -90,18 +91,20 @@ export default async function DashboardPage() {
               <p className="text-3xl font-bold">{stats.totalPatients}</p>
             </CardContent>
           </Card>
-          <Card>
-            <CardHeader className="pb-2">
-              <CardTitle className="text-sm font-medium text-muted-foreground">
-                Pending Approvals
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-3xl font-bold text-yellow-600">
-                {stats.pendingPatients}
-              </p>
-            </CardContent>
-          </Card>
+          <Link href="/admin/approvals">
+            <Card className="hover:border-yellow-400 transition-colors cursor-pointer">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm font-medium text-muted-foreground">
+                  Pending Approvals
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-3xl font-bold text-yellow-600">
+                  {stats.pendingPatients}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
           <Card>
             <CardHeader className="pb-2">
               <CardTitle className="text-sm font-medium text-muted-foreground">
