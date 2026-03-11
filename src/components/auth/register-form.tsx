@@ -18,7 +18,6 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 import {
   Select,
@@ -27,6 +26,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { UserPlus } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -58,7 +58,6 @@ export function RegisterForm() {
         return;
       }
 
-      // Auto-login after registration
       const result = await signIn("credentials", {
         email: data.email,
         password: data.password,
@@ -66,7 +65,6 @@ export function RegisterForm() {
       });
 
       if (result?.error) {
-        // Registration succeeded but login failed — redirect to login
         router.push("/login");
         return;
       }
@@ -79,20 +77,21 @@ export function RegisterForm() {
   }
 
   return (
-    <Card>
-      <CardHeader className="text-center">
-        <div className="flex justify-center mb-2">
-          <Image src="/sphlogo.png" alt="SPH Hospital" width={280} height={58} className="w-auto h-14" />
+    <Card className="shadow-xl shadow-black/5 border-0 ring-1 ring-border">
+      <CardHeader className="text-center pb-2">
+        <div className="flex justify-center mb-4 lg:hidden">
+          <Image src="/sphlogo.png" alt="SPH Hospital" width={240} height={50} className="w-auto h-12" />
         </div>
-        <CardTitle className="text-2xl">Patient Registration</CardTitle>
+        <h1 className="text-2xl font-semibold tracking-tight">Patient Registration</h1>
         <CardDescription>
           Create your account. An admin will review your registration.
         </CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <CardContent className="space-y-4">
+        <CardContent className="space-y-4 pt-2">
           {error && (
-            <div className="bg-destructive/10 text-destructive text-sm p-3 rounded-md">
+            <div className="bg-destructive/10 text-destructive text-sm p-3 rounded-lg flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-destructive shrink-0" />
               {error}
             </div>
           )}
@@ -204,12 +203,19 @@ export function RegisterForm() {
           </div>
         </CardContent>
         <CardFooter className="flex flex-col gap-4">
-          <Button type="submit" className="w-full" disabled={isSubmitting}>
-            {isSubmitting ? "Registering..." : "Register"}
+          <Button type="submit" className="w-full gap-2" disabled={isSubmitting}>
+            {isSubmitting ? (
+              "Registering..."
+            ) : (
+              <>
+                <UserPlus className="h-4 w-4" />
+                Register
+              </>
+            )}
           </Button>
           <p className="text-sm text-muted-foreground">
             Already have an account?{" "}
-            <Link href="/login" className="text-primary underline">
+            <Link href="/login" className="text-primary font-medium hover:underline">
               Sign in
             </Link>
           </p>

@@ -5,6 +5,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { StatusBadge } from "@/components/shared/status-badge";
+import { Mail, Phone, Calendar, MapPin, Droplets, Clock } from "lucide-react";
 import type { AccountStatus, Gender } from "@/lib/types";
 
 type PatientProfileData = {
@@ -41,34 +42,55 @@ export function PatientProfileCard({
         </div>
       </CardHeader>
       <CardContent>
-        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
-          <div>
-            <dt className="font-medium text-muted-foreground">Email</dt>
-            <dd>{patient.user.email}</dd>
+        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-sm">
+          <div className="flex items-start gap-3">
+            <Mail className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+            <div>
+              <dt className="font-medium text-muted-foreground text-xs uppercase tracking-wider">Email</dt>
+              <dd className="mt-0.5">{patient.user.email}</dd>
+            </div>
           </div>
-          <div>
-            <dt className="font-medium text-muted-foreground">Phone</dt>
-            <dd>{patient.phone}</dd>
+          <div className="flex items-start gap-3">
+            <Phone className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+            <div>
+              <dt className="font-medium text-muted-foreground text-xs uppercase tracking-wider">Phone</dt>
+              <dd className="mt-0.5">{patient.phone}</dd>
+            </div>
           </div>
-          <div>
-            <dt className="font-medium text-muted-foreground">Date of Birth</dt>
-            <dd>{new Date(patient.dateOfBirth).toLocaleDateString()}</dd>
+          <div className="flex items-start gap-3">
+            <Calendar className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+            <div>
+              <dt className="font-medium text-muted-foreground text-xs uppercase tracking-wider">Date of Birth</dt>
+              <dd className="mt-0.5">{new Date(patient.dateOfBirth).toLocaleDateString()}</dd>
+            </div>
           </div>
-          <div>
-            <dt className="font-medium text-muted-foreground">Gender</dt>
-            <dd className="capitalize">{patient.gender.toLowerCase()}</dd>
+          <div className="flex items-start gap-3">
+            <span className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0 text-center text-xs font-bold">G</span>
+            <div>
+              <dt className="font-medium text-muted-foreground text-xs uppercase tracking-wider">Gender</dt>
+              <dd className="capitalize mt-0.5">{patient.gender.toLowerCase()}</dd>
+            </div>
           </div>
-          <div>
-            <dt className="font-medium text-muted-foreground">Address</dt>
-            <dd>{patient.address}</dd>
+          <div className="flex items-start gap-3">
+            <MapPin className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+            <div>
+              <dt className="font-medium text-muted-foreground text-xs uppercase tracking-wider">Address</dt>
+              <dd className="mt-0.5">{patient.address}</dd>
+            </div>
           </div>
-          <div>
-            <dt className="font-medium text-muted-foreground">Blood Type</dt>
-            <dd>{patient.bloodType || "Not specified"}</dd>
+          <div className="flex items-start gap-3">
+            <Droplets className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+            <div>
+              <dt className="font-medium text-muted-foreground text-xs uppercase tracking-wider">Blood Type</dt>
+              <dd className="mt-0.5">{patient.bloodType || "Not specified"}</dd>
+            </div>
           </div>
-          <div>
-            <dt className="font-medium text-muted-foreground">Registered</dt>
-            <dd>{new Date(patient.createdAt).toLocaleDateString()}</dd>
+          <div className="flex items-start gap-3">
+            <Clock className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+            <div>
+              <dt className="font-medium text-muted-foreground text-xs uppercase tracking-wider">Registered</dt>
+              <dd className="mt-0.5">{new Date(patient.createdAt).toLocaleDateString()}</dd>
+            </div>
           </div>
         </dl>
       </CardContent>

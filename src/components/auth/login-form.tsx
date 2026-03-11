@@ -15,8 +15,8 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
+import { LogIn } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -50,17 +50,22 @@ export function LoginForm() {
   }
 
   return (
-    <Card>
-      <CardHeader className="text-center">
-        <div className="flex justify-center mb-2">
-          <Image src="/sphlogo.png" alt="SPH Hospital" width={280} height={58} className="w-auto h-14" />
+    <Card className="shadow-xl shadow-black/5 border-0 ring-1 ring-border">
+      <CardHeader className="text-center pb-2">
+        {/* Logo visible only on mobile (hidden on lg where brand panel shows) */}
+        <div className="flex justify-center mb-4 lg:hidden">
+          <Image src="/sphlogo.png" alt="SPH Hospital" width={240} height={50} className="w-auto h-12" />
         </div>
-        <CardDescription>Sign in to your account</CardDescription>
+        <h1 className="text-2xl font-semibold tracking-tight">Welcome back</h1>
+        <CardDescription className="text-muted-foreground">
+          Sign in to your account to continue
+        </CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <CardContent className="space-y-4">
+        <CardContent className="space-y-4 pt-2">
           {error && (
-            <div className="bg-destructive/10 text-destructive text-sm p-3 rounded-md">
+            <div className="bg-destructive/10 text-destructive text-sm p-3 rounded-lg flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-destructive shrink-0" />
               {error}
             </div>
           )}
@@ -70,6 +75,7 @@ export function LoginForm() {
               id="email"
               type="email"
               placeholder="you@example.com"
+              autoComplete="email"
               {...register("email")}
             />
             {errors.email && (
@@ -78,7 +84,12 @@ export function LoginForm() {
           </div>
           <div className="space-y-2">
             <Label htmlFor="password">Password</Label>
-            <Input id="password" type="password" {...register("password")} />
+            <Input
+              id="password"
+              type="password"
+              autoComplete="current-password"
+              {...register("password")}
+            />
             {errors.password && (
               <p className="text-destructive text-sm">
                 {errors.password.message}
@@ -87,12 +98,19 @@ export function LoginForm() {
           </div>
         </CardContent>
         <CardFooter className="flex flex-col gap-4">
-          <Button type="submit" className="w-full" disabled={isSubmitting}>
-            {isSubmitting ? "Signing in..." : "Sign In"}
+          <Button type="submit" className="w-full gap-2" disabled={isSubmitting}>
+            {isSubmitting ? (
+              "Signing in..."
+            ) : (
+              <>
+                <LogIn className="h-4 w-4" />
+                Sign In
+              </>
+            )}
           </Button>
           <p className="text-sm text-muted-foreground">
             Don&apos;t have an account?{" "}
-            <Link href="/register" className="text-primary underline">
+            <Link href="/register" className="text-primary font-medium hover:underline">
               Register as Patient
             </Link>
           </p>
