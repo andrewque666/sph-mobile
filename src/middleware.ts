@@ -1,10 +1,8 @@
-import { auth } from "@/auth";
+import NextAuth from "next-auth";
+import authConfig from "@/auth.config";
 import { NextResponse } from "next/server";
 
-const publicRoutes = ["/login", "/register"];
-const adminRoutes = ["/admin"];
-const doctorDirectoryRoute = "/doctors";
-const patientRoutes = ["/patients"];
+const { auth } = NextAuth(authConfig);
 
 export default auth((req) => {
   const { nextUrl } = req;
@@ -13,6 +11,7 @@ export default auth((req) => {
   const pathname = nextUrl.pathname;
 
   // Public routes — redirect authenticated users to dashboard
+  const publicRoutes = ["/login", "/register"];
   if (publicRoutes.some((r) => pathname.startsWith(r))) {
     if (isLoggedIn) {
       return NextResponse.redirect(new URL("/dashboard", nextUrl));
@@ -34,7 +33,7 @@ export default auth((req) => {
   }
 
   // Doctor directory — not accessible to pending patients
-  if (pathname.startsWith(doctorDirectoryRoute)) {
+  if (pathname.startsWith("/doctors")) {
     if (user?.role === "PATIENT" && user?.status !== "APPROVED") {
       return NextResponse.redirect(new URL("/dashboard", nextUrl));
     }
@@ -54,7 +53,6 @@ export default auth((req) => {
     if (user?.status !== "APPROVED") {
       return NextResponse.redirect(new URL("/dashboard", nextUrl));
     }
-    // Allow — we'll verify ownership in the page itself
     return NextResponse.next();
   }
 
