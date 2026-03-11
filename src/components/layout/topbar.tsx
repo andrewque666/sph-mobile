@@ -25,7 +25,7 @@ export function Topbar({
           alt="SPH"
           width={144}
           height={30}
-          className="h-7 w-auto brightness-0 invert"
+          className="h-7 w-auto rounded bg-white/90 px-1.5 py-0.5"
         />
         <span className="hidden sm:inline-flex text-[11px] font-medium tracking-wide uppercase bg-white/15 backdrop-blur-sm text-primary-foreground/90 px-2.5 py-1 rounded-full">
           {role.toLowerCase()}

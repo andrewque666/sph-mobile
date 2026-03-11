@@ -19,7 +19,7 @@ export function Sidebar({
           alt="SPH"
           width={144}
           height={30}
-          className="h-7 w-auto brightness-0 invert opacity-80"
+          className="h-7 w-auto rounded bg-white/90 px-1.5 py-0.5"
         />
       </div>
       <div className="flex-1 flex flex-col overflow-y-auto px-3 py-4">

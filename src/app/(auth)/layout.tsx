@@ -16,7 +16,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
             alt="St. Paul's Hospital of Iloilo"
             width={280}
             height={58}
-            className="w-auto h-12 brightness-0 invert"
+            className="w-auto h-12 rounded-md bg-white/90 px-2 py-1"
           />
         </div>
 
