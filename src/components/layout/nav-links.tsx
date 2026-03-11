@@ -51,7 +51,7 @@ export function NavLinks({
           key={link.href}
           href={link.href}
           className={cn(
-            "block px-3 py-2 rounded-md text-sm font-medium transition-colors",
+            "block px-3 py-3 md:py-2 rounded-md text-base md:text-sm font-medium transition-colors",
             pathname === link.href || pathname.startsWith(link.href + "/")
               ? "bg-primary text-primary-foreground"
               : "text-muted-foreground hover:bg-muted hover:text-foreground"

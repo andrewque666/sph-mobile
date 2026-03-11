@@ -14,8 +14,8 @@ export default async function ApprovalsPage() {
   });
 
   return (
-    <div className="space-y-6">
-      <h2 className="text-2xl font-bold">Pending Approvals</h2>
+    <div className="space-y-4 md:space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold">Pending Approvals</h2>
       <PatientListTable patients={pendingPatients} showActions />
     </div>
   );

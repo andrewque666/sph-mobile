@@ -26,8 +26,8 @@ export default async function PatientDetailPage({
   }
 
   return (
-    <div className="space-y-6">
-      <h2 className="text-2xl font-bold">Patient Details</h2>
+    <div className="space-y-4 md:space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold">Patient Details</h2>
       <PatientProfileCard patient={patient} />
     </div>
   );

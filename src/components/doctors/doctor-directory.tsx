@@ -56,7 +56,7 @@ export function DoctorDirectory() {
           placeholder="Search doctors..."
         />
         <Select value={specialty} onValueChange={(val: string | null) => setSpecialty(val || "")}>
-          <SelectTrigger className="w-[200px]">
+          <SelectTrigger className="w-full sm:w-[200px]">
             <SelectValue placeholder="All Specialties" />
           </SelectTrigger>
           <SelectContent>

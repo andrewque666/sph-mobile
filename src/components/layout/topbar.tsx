@@ -2,19 +2,31 @@
 
 import { signOut } from "next-auth/react";
 import { Button } from "@/components/ui/button";
-import type { Role } from "@/lib/types";
+import { MobileNav } from "./mobile-nav";
+import type { Role, AccountStatus } from "@/lib/types";
 
-export function Topbar({ email, role }: { email: string; role: Role }) {
+export function Topbar({
+  email,
+  role,
+  status,
+}: {
+  email: string;
+  role: Role;
+  status?: AccountStatus;
+}) {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 h-16 border-b bg-primary text-primary-foreground flex items-center justify-between px-6">
+    <header className="fixed top-0 left-0 right-0 z-50 h-16 border-b bg-primary text-primary-foreground flex items-center justify-between px-4 md:px-6">
       <div className="flex items-center gap-3">
-        <h1 className="text-lg font-bold">SPH Hospital</h1>
+        <MobileNav role={role} status={status} />
+        <h1 className="text-lg font-bold">SPH</h1>
         <span className="text-xs bg-white/20 text-primary-foreground px-2 py-1 rounded-full capitalize">
           {role.toLowerCase()}
         </span>
       </div>
-      <div className="flex items-center gap-4">
-        <span className="text-sm text-primary-foreground/80 hidden sm:inline">{email}</span>
+      <div className="flex items-center gap-2 md:gap-4">
+        <span className="text-sm text-primary-foreground/80 hidden sm:inline">
+          {email}
+        </span>
         <Button
           variant="secondary"
           size="sm"

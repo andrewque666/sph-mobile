@@ -25,8 +25,8 @@ export default async function DashboardPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <h2 className="text-2xl font-bold">Dashboard</h2>
+    <div className="space-y-4 md:space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold">Dashboard</h2>
 
       {role === "PATIENT" && status === "PENDING" && (
         <Card className="border-yellow-200 bg-yellow-50">
@@ -80,7 +80,7 @@ export default async function DashboardPage() {
       )}
 
       {role === "ADMIN" && stats && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
           <Card>
             <CardHeader className="pb-2">
               <CardTitle className="text-sm font-medium text-muted-foreground">

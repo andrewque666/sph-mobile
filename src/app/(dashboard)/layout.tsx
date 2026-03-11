@@ -17,13 +17,17 @@ export default async function DashboardLayout({
 
   return (
     <div className="min-h-screen bg-background">
-      <Topbar email={session.user.email!} role={session.user.role as Role} />
+      <Topbar
+        email={session.user.email!}
+        role={session.user.role as Role}
+        status={session.user.status as AccountStatus | undefined}
+      />
       <Sidebar
         role={session.user.role as Role}
         status={session.user.status as AccountStatus | undefined}
       />
       <main className="md:pl-64 pt-16">
-        <div className="p-6">{children}</div>
+        <div className="p-4 md:p-6">{children}</div>
       </main>
     </div>
   );

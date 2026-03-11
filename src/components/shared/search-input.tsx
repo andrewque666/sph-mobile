@@ -16,7 +16,7 @@ export function SearchInput({
       placeholder={placeholder}
       value={value}
       onChange={(e) => onChange(e.target.value)}
-      className="max-w-sm"
+      className="w-full sm:max-w-sm"
     />
   );
 }

@@ -61,8 +61,8 @@ export default function CreateUserPage() {
   }
 
   return (
-    <div className="max-w-2xl">
-      <h2 className="text-2xl font-bold mb-6">Create User</h2>
+    <div className="max-w-2xl mx-auto">
+      <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">Create User</h2>
 
       <Card>
         <CardHeader>
@@ -111,7 +111,7 @@ export default function CreateUserPage() {
 
             {selectedRole === "DOCTOR" && (
               <>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="firstName">First Name</Label>
                     <Input id="firstName" {...register("firstName")} />
