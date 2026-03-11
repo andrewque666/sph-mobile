@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { NavLinks } from "./nav-links";
 import type { Role, AccountStatus } from "@/lib/types";
 
@@ -14,11 +13,9 @@ export function Sidebar({
   return (
     <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 bg-sidebar text-sidebar-foreground">
       <div className="flex items-center h-16 px-5 border-b border-sidebar-border shrink-0">
-        <Image
+        <img
           src="/sphlogo.png"
           alt="SPH"
-          width={144}
-          height={30}
           className="h-7 w-auto rounded bg-white/90 px-1.5 py-0.5"
         />
       </div>

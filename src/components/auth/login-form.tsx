@@ -17,7 +17,6 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import { LogIn } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export function LoginForm() {
@@ -54,7 +53,7 @@ export function LoginForm() {
       <CardHeader className="text-center pb-2">
         {/* Logo visible only on mobile (hidden on lg where brand panel shows) */}
         <div className="flex justify-center mb-4 lg:hidden">
-          <Image src="/sphlogo.png" alt="SPH Hospital" width={240} height={50} className="w-auto h-12" />
+          <img src="/sphlogo.png" alt="SPH Hospital" className="w-auto h-12" />
         </div>
         <h1 className="text-2xl font-semibold tracking-tight">Welcome back</h1>
         <CardDescription className="text-muted-foreground">

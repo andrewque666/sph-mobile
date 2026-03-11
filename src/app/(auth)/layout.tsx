@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex">
@@ -11,11 +9,9 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         <div className="absolute top-1/2 right-0 w-40 h-40 rounded-full bg-white/[0.03]" />
 
         <div>
-          <Image
+          <img
             src="/sphlogo.png"
             alt="St. Paul's Hospital of Iloilo"
-            width={280}
-            height={58}
             className="w-auto h-12 rounded-md bg-white/90 px-2 py-1"
           />
         </div>

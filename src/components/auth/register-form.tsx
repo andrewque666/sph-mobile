@@ -27,7 +27,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { UserPlus } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export function RegisterForm() {
@@ -80,7 +79,7 @@ export function RegisterForm() {
     <Card className="shadow-xl shadow-black/5 border-0 ring-1 ring-border">
       <CardHeader className="text-center pb-2">
         <div className="flex justify-center mb-4 lg:hidden">
-          <Image src="/sphlogo.png" alt="SPH Hospital" width={240} height={50} className="w-auto h-12" />
+          <img src="/sphlogo.png" alt="SPH Hospital" className="w-auto h-12" />
         </div>
         <h1 className="text-2xl font-semibold tracking-tight">Patient Registration</h1>
         <CardDescription>

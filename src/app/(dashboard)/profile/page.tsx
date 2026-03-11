@@ -1,7 +1,6 @@
 import { auth } from "@/auth";
 import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
-import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -40,11 +39,9 @@ export default async function ProfilePage() {
         {/* Profile header card */}
         <Card className="overflow-hidden animate-fade-in">
           <div className="bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 px-5 py-4 border-b border-border/50">
-            <Image
+            <img
               src="/sphlogo.png"
               alt="SPH"
-              width={180}
-              height={37}
               className="h-8 w-auto"
             />
           </div>
@@ -99,11 +96,9 @@ export default async function ProfilePage() {
       <div className="space-y-6 max-w-2xl mx-auto">
         <Card className="overflow-hidden animate-fade-in">
           <div className="bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 px-5 py-4 border-b border-border/50">
-            <Image
+            <img
               src="/sphlogo.png"
               alt="SPH"
-              width={180}
-              height={37}
               className="h-8 w-auto"
             />
           </div>
@@ -165,11 +160,9 @@ export default async function ProfilePage() {
     <div className="space-y-6 max-w-2xl mx-auto">
       <Card className="overflow-hidden animate-fade-in">
         <div className="bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 px-5 py-4 border-b border-border/50">
-          <Image
+          <img
             src="/sphlogo.png"
             alt="SPH"
-            width={180}
-            height={37}
             className="h-8 w-auto"
           />
         </div>
