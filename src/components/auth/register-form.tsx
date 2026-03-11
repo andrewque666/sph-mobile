@@ -27,6 +27,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Image from "next/image";
 import Link from "next/link";
 
 export function RegisterForm() {
@@ -80,6 +81,9 @@ export function RegisterForm() {
   return (
     <Card>
       <CardHeader className="text-center">
+        <div className="flex justify-center mb-2">
+          <Image src="/sphlogo.png" alt="SPH Hospital" width={64} height={64} className="rounded" />
+        </div>
         <CardTitle className="text-2xl">Patient Registration</CardTitle>
         <CardDescription>
           Create your account. An admin will review your registration.

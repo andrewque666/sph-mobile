@@ -17,6 +17,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Image from "next/image";
 import Link from "next/link";
 
 export function LoginForm() {
@@ -51,6 +52,9 @@ export function LoginForm() {
   return (
     <Card>
       <CardHeader className="text-center">
+        <div className="flex justify-center mb-2">
+          <Image src="/sphlogo.png" alt="SPH Hospital" width={64} height={64} className="rounded" />
+        </div>
         <CardTitle className="text-2xl">SPH Hospital</CardTitle>
         <CardDescription>Sign in to your account</CardDescription>
       </CardHeader>
