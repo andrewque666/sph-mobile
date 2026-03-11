@@ -53,9 +53,8 @@ export function LoginForm() {
     <Card>
       <CardHeader className="text-center">
         <div className="flex justify-center mb-2">
-          <Image src="/sphlogo.png" alt="SPH Hospital" width={64} height={64} className="rounded" />
+          <Image src="/sphlogo.png" alt="SPH Hospital" width={280} height={58} className="w-auto h-14" />
         </div>
-        <CardTitle className="text-2xl">SPH Hospital</CardTitle>
         <CardDescription>Sign in to your account</CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit(onSubmit)}>

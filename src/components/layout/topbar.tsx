@@ -19,8 +19,7 @@ export function Topbar({
     <header className="fixed top-0 left-0 right-0 z-50 h-16 border-b bg-primary text-primary-foreground flex items-center justify-between px-4 md:px-6">
       <div className="flex items-center gap-3">
         <MobileNav role={role} status={status} />
-        <Image src="/sphlogo.png" alt="SPH" width={36} height={36} className="rounded" />
-        <h1 className="text-lg font-bold">SPH</h1>
+        <Image src="/sphlogo.png" alt="SPH" width={144} height={30} className="h-8 w-auto" />
         <span className="text-xs bg-white/20 text-primary-foreground px-2 py-1 rounded-full capitalize">
           {role.toLowerCase()}
         </span>
