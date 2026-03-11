@@ -55,8 +55,30 @@ model PatientProfile {
   reviewedAt   DateTime?
   createdAt    DateTime      @default(now())
   updatedAt    DateTime      @updatedAt
+  vitals       VitalSign[]
 
   @@map("patient_profiles")
+}
+
+model VitalSign {
+  id        String         @id @default(cuid())
+  patientId String
+  patient   PatientProfile @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  type      VitalType
+  value     String
+  unit      String
+  takenAt   DateTime       @default(now())
+  createdAt DateTime       @default(now())
+
+  @@index([patientId, type, takenAt(sort: Desc)])
+  @@map("vital_signs")
+}
+
+enum VitalType {
+  WEIGHT
+  BLOOD_PRESSURE
+  TEMPERATURE
+  PULSE
 }
 
 model DoctorProfile {
