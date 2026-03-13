@@ -48,8 +48,8 @@ export default async function DashboardPage() {
       {role === "PATIENT" && status === "PENDING" && (
         <Card className="border-yellow-200 bg-gradient-to-r from-yellow-50 to-yellow-50/50 animate-fade-in">
           <CardContent className="pt-6">
-            <div className="flex items-start gap-3">
-              <div className="p-2 rounded-full bg-yellow-100">
+            <div className="flex items-center gap-3">
+              <div className="p-2 rounded-full bg-yellow-100 shrink-0">
                 <Clock className="h-4 w-4 text-yellow-700" />
               </div>
               <div>
@@ -66,8 +66,8 @@ export default async function DashboardPage() {
       {role === "PATIENT" && status === "REJECTED" && (
         <Card className="border-red-200 bg-gradient-to-r from-red-50 to-red-50/50 animate-fade-in">
           <CardContent className="pt-6">
-            <div className="flex items-start gap-3">
-              <div className="p-2 rounded-full bg-red-100">
+            <div className="flex items-center gap-3">
+              <div className="p-2 rounded-full bg-red-100 shrink-0">
                 <AlertTriangle className="h-4 w-4 text-red-700" />
               </div>
               <div>
@@ -84,8 +84,8 @@ export default async function DashboardPage() {
       {role === "PATIENT" && status === "APPROVED" && (
         <Card className="border-primary/20 bg-gradient-to-r from-primary/5 to-transparent animate-fade-in">
           <CardContent className="pt-6">
-            <div className="flex items-start gap-3">
-              <div className="p-2 rounded-full bg-primary/10">
+            <div className="flex items-center gap-3">
+              <div className="p-2 rounded-full bg-primary/10 shrink-0">
                 <CheckCircle2 className="h-4 w-4 text-primary" />
               </div>
               <div>
@@ -109,8 +109,8 @@ export default async function DashboardPage() {
       {(role === "DOCTOR" || role === "STAFF") && (
         <Card className="border-primary/20 bg-gradient-to-r from-primary/5 to-transparent animate-fade-in">
           <CardContent className="pt-6">
-            <div className="flex items-start gap-3">
-              <div className="p-2 rounded-full bg-primary/10">
+            <div className="flex items-center gap-3">
+              <div className="p-2 rounded-full bg-primary/10 shrink-0">
                 <Info className="h-4 w-4 text-primary" />
               </div>
               <p className="text-sm text-muted-foreground">
