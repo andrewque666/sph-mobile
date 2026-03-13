@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Users, Clock, Stethoscope, Shield, AlertTriangle, CheckCircle2, Info } from "lucide-react";
 import Link from "next/link";
+import { PatientQrCard } from "@/components/patients/patient-qr-card";
 
 export default async function DashboardPage() {
   const session = await auth();
@@ -22,6 +23,14 @@ export default async function DashboardPage() {
         db.user.count({ where: { role: "STAFF" } }),
       ]);
     stats = { totalPatients, pendingPatients, totalDoctors, totalStaff };
+  }
+
+  let patientProfile = null;
+  if (role === "PATIENT") {
+    patientProfile = await db.patientProfile.findUnique({
+      where: { userId: session.user.id },
+      select: { id: true, firstName: true, lastName: true },
+    });
   }
 
   return (
@@ -88,6 +97,13 @@ export default async function DashboardPage() {
             </div>
           </CardContent>
         </Card>
+      )}
+
+      {role === "PATIENT" && patientProfile && (
+        <PatientQrCard
+          patientId={patientProfile.id}
+          patientName={`${patientProfile.firstName} ${patientProfile.lastName}`}
+        />
       )}
 
       {(role === "DOCTOR" || role === "STAFF") && (
