@@ -10,6 +10,11 @@ export default auth((req) => {
   const user = req.auth?.user;
   const pathname = nextUrl.pathname;
 
+  // Design showcase — fully public, reachable whether logged in or not
+  if (pathname.startsWith("/kitchen-sink")) {
+    return NextResponse.next();
+  }
+
   // Public routes — redirect authenticated users to dashboard
   const publicRoutes = ["/login", "/register"];
   if (publicRoutes.some((r) => pathname.startsWith(r))) {
