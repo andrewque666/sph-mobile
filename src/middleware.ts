@@ -10,8 +10,13 @@ export default auth((req) => {
   const user = req.auth?.user;
   const pathname = nextUrl.pathname;
 
-  // Design showcase — fully public, reachable whether logged in or not
-  if (pathname.startsWith("/kitchen-sink")) {
+  // Public marketing website + design showcase — reachable whether logged in
+  // or not (no redirect for authenticated visitors, who can still browse it).
+  const publicSiteRoutes = ["/about", "/services", "/kitchen-sink"];
+  if (
+    pathname === "/" ||
+    publicSiteRoutes.some((r) => pathname === r || pathname.startsWith(`${r}/`))
+  ) {
     return NextResponse.next();
   }
 
