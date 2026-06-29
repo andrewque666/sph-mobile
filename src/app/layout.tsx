@@ -1,7 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
+import { ServiceWorkerRegister } from "@/components/pwa/service-worker-register";
+import { InstallPrompt } from "@/components/pwa/install-prompt";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,8 +17,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SPH Hospital",
-  description: "Hospital Management System",
+  applicationName: "SPH Patient",
+  title: "St. Paul's Hospital of Iloilo",
+  description:
+    "Patient app and public website for St. Paul's Hospital of Iloilo — book ancillary appointments, view records and results, and manage your care.",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "SPH Patient",
+  },
+  icons: {
+    icon: [{ url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" }],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
+  formatDetection: { telephone: false },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0e5a48",
+  colorScheme: "light dark",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -37,6 +59,8 @@ export default function RootLayout({
         >
           {children}
           <Toaster />
+          <InstallPrompt />
+          <ServiceWorkerRegister />
         </ThemeProvider>
       </body>
     </html>

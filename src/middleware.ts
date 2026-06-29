@@ -12,7 +12,7 @@ export default auth((req) => {
 
   // Public marketing website + design showcase — reachable whether logged in
   // or not (no redirect for authenticated visitors, who can still browse it).
-  const publicSiteRoutes = ["/about", "/services", "/kitchen-sink"];
+  const publicSiteRoutes = ["/about", "/services", "/kitchen-sink", "/offline"];
   if (
     pathname === "/" ||
     publicSiteRoutes.some((r) => pathname === r || pathname.startsWith(`${r}/`))
@@ -70,5 +70,7 @@ export default auth((req) => {
 });
 
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|sphlogo.png).*)"],
+  matcher: [
+    "/((?!api|_next/static|_next/image|favicon.ico|sphlogo.png|sw.js|manifest.webmanifest|icons).*)",
+  ],
 };
