@@ -6,7 +6,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/admin", "/dashboard", "/patients", "/doctors", "/profile", "/inquiries", "/kitchen-sink", "/search"],
+      // "/patients$" + "/patients/" rather than "/patients", which would also block /patients-and-visitors.
+      disallow: ["/api/", "/admin", "/dashboard", "/patients$", "/patients/", "/doctors", "/profile", "/inquiries", "/kitchen-sink", "/search"],
     },
     sitemap: `${SITE.url}/sitemap.xml`,
   };

@@ -39,8 +39,11 @@ export default async function NewsPage({ searchParams }: Props) {
         description="Hospital news, community outreach, events and the recognitions we receive along the way."
         crumbs={[{ label: "News" }]}
       />
-      <section className="px-4 py-12 sm:px-6">
+      <section className="px-4 py-12 sm:px-6" aria-labelledby="news-list-heading">
         <div className="mx-auto max-w-6xl">
+          <h2 id="news-list-heading" className="sr-only">
+            {category ? POST_CATEGORY_LABELS[category] : "All updates"}
+          </h2>
           <nav aria-label="News categories" className="mb-8 overflow-x-auto">
             <ul className="flex w-max gap-2">
               {tabs.map((t) => {

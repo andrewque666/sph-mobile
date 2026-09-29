@@ -32,7 +32,7 @@ export default function PatientsAndVisitorsPage() {
       />
 
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[220px_1fr]">
-        <nav aria-label="On this page" className="lg:sticky lg:top-28 lg:self-start">
+        <nav aria-label="On this page" className="min-w-0 lg:sticky lg:top-28 lg:self-start">
           <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground">On this page</p>
           <ul className="flex gap-1 overflow-x-auto lg:flex-col">
             {SECTIONS.map(({ id, label, icon: Icon }) => (

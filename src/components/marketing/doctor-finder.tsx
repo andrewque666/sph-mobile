@@ -31,6 +31,8 @@ export type FinderDoctor = {
 
 type Department = { slug: string; name: string };
 
+const PAGE_SIZE = 24;
+
 const normalize = (s: string) =>
   s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
@@ -53,6 +55,8 @@ export function DoctorFinder({
   const pathname = usePathname();
   const [query, setQuery] = useState(initialQuery);
   const [department, setDepartment] = useState(initialDepartment || "all");
+  // Render results in pages — all ~200 cards at once makes a very large DOM.
+  const [limit, setLimit] = useState(PAGE_SIZE);
 
   function syncUrl(q: string, dept: string) {
     const params = new URLSearchParams();
@@ -83,6 +87,7 @@ export function DoctorFinder({
             value={query}
             onChange={(v) => {
               setQuery(v);
+              setLimit(PAGE_SIZE);
               syncUrl(v, department);
             }}
             placeholder="Search by name or specialty…"
@@ -94,6 +99,7 @@ export function DoctorFinder({
           onValueChange={(v: string | null) => {
             const next = v ?? "all";
             setDepartment(next);
+            setLimit(PAGE_SIZE);
             syncUrl(query, next);
           }}
         >
@@ -125,7 +131,7 @@ export function DoctorFinder({
         </Card>
       ) : (
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {results.map((d) => {
+          {results.slice(0, limit).map((d) => {
             const fullName = `Dr. ${d.firstName} ${d.lastName}`;
             return (
               <li key={d.id}>
@@ -176,6 +182,14 @@ export function DoctorFinder({
             );
           })}
         </ul>
+      )}
+
+      {results.length > limit && (
+        <div className="flex justify-center">
+          <Button variant="outline" onClick={() => setLimit((l) => l + PAGE_SIZE)}>
+            Show more doctors ({results.length - limit} more)
+          </Button>
+        </div>
       )}
     </div>
   );

@@ -82,6 +82,9 @@ export function SiteHeader({ isLoggedIn }: { isLoggedIn: boolean }) {
               group.items ? (
                 <DropdownMenu key={group.label}>
                   <DropdownMenuTrigger
+                    // Explicit id: the auto-generated one depends on tree position,
+                    // which can differ between server and client above this header.
+                    id={`site-nav-${group.label.toLowerCase()}`}
                     openOnHover
                     className={cn(
                       "inline-flex items-center gap-1 whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors outline-none hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 data-popup-open:bg-muted",
