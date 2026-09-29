@@ -123,7 +123,7 @@ export function RegisterForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="space-y-2">
               <Label htmlFor="password">Password</Label>
-              <Input id="password" type="password" {...register("password")} />
+              <Input id="password" type="password" autoComplete="new-password" {...register("password")} />
               {errors.password && (
                 <p className="text-destructive text-sm">{errors.password.message}</p>
               )}
@@ -133,6 +133,7 @@ export function RegisterForm() {
               <Input
                 id="confirmPassword"
                 type="password"
+                autoComplete="new-password"
                 {...register("confirmPassword")}
               />
               {errors.confirmPassword && (

@@ -1,121 +1,85 @@
 import type { Metadata } from "next";
-import { Eye, Target, Award, HeartHandshake } from "lucide-react";
+import Link from "next/link";
+import { Eye, Target, ArrowRight } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { PageHero } from "@/components/marketing/page-hero";
+import { SectionHeading } from "@/components/marketing/section-heading";
 import { CtaBand } from "@/components/marketing/cta-band";
-import { SITE, VALUES, ACCREDITATIONS } from "@/components/marketing/site-data";
+import {
+  SITE,
+  HISTORY,
+  MILESTONES,
+  VISION,
+  MISSION,
+  CORE_VALUES,
+} from "@/components/marketing/site-data";
 
 export const metadata: Metadata = {
-  title: "About Us — St. Paul's Hospital of Iloilo",
+  title: "About Us",
   description:
-    "A tertiary-level training general hospital managed by the Sisters of Saint Paul of Chartres — our mission, vision, values and accreditations.",
+    "The history, vision, mission and core values of St. Paul's Hospital of Iloilo — founded in 1911 and managed by the Sisters of St. Paul of Chartres.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {
   return (
     <>
-      {/* Page hero */}
-      <section className="border-b border-border bg-secondary/40 px-6 py-14">
-        <div className="mx-auto max-w-4xl text-center">
-          <Badge variant="secondary" className="mb-3">
-            About Us
-          </Badge>
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Caring for Iloilo, the Pauline way
-          </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-sm text-muted-foreground sm:text-base">
-            {SITE.description}
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="About SPHI"
+        title="A haven for the sick in the heart of Iloilo City since 1911"
+        description={SITE.intro}
+        crumbs={[{ label: "About" }]}
+      >
+        <Button render={<Link href="/about/leadership" />}>Our leadership</Button>
+        <Button variant="outline" render={<Link href="/about/accreditation" />}>Accreditation</Button>
+      </PageHero>
 
-      {/* Who we are */}
-      <section className="px-6 py-14">
-        <div className="mx-auto grid max-w-5xl items-center gap-8 lg:grid-cols-2">
-          <div className="space-y-4">
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary">
-              Who we are
-            </p>
-            <h2 className="text-2xl font-semibold tracking-tight">
-              A tradition of excellence in healthcare
-            </h2>
-            <p className="text-sm leading-relaxed text-muted-foreground">
-              St. Paul&apos;s Hospital of Iloilo, Inc. is a 180-bed tertiary-level training
-              general hospital managed by the Sisters of Saint Paul of Chartres. For
-              generations, we have delivered compassionate, quality healthcare to the people
-              of Western Visayas — combining advanced medical technology with the warmth and
-              dignity that define Pauline care.
-            </p>
-            <p className="text-sm leading-relaxed text-muted-foreground">
-              As an ISO Integrated Management System–certified institution, we hold ourselves
-              to rigorous standards of safety, quality and continuous improvement across every
-              department and center of excellence.
-            </p>
-          </div>
-          <Card className="bg-primary text-primary-foreground">
-            <CardContent className="space-y-3 py-8">
-              <HeartHandshake className="size-8 text-primary-foreground/80" />
-              <blockquote className="text-xl font-light leading-relaxed tracking-tight">
-                &ldquo;{SITE.motto}&rdquo;
-              </blockquote>
-              <p className="text-sm text-primary-foreground/70">
-                Our commitment to integrated, holistic and dynamic care for every patient.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* Vision & Mission */}
-      <section className="bg-muted/40 px-6 py-14">
-        <div className="mx-auto grid max-w-5xl gap-4 md:grid-cols-2">
+      {/* Vision & mission */}
+      <section className="px-4 py-16 sm:px-6">
+        <div className="mx-auto grid max-w-6xl gap-4 md:grid-cols-2">
           <Card>
-            <CardContent className="space-y-3 py-8">
-              <span className="flex size-11 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-                <Eye className="size-5" />
+            <CardHeader>
+              <span className="mb-2 flex size-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                <Eye className="size-5" aria-hidden />
               </span>
-              <h3 className="text-lg font-semibold">Our Vision</h3>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                A premier healthcare institution in Western Visayas, recognized for clinical
-                excellence, compassionate service and unwavering commitment to the holistic
-                well-being of every person we serve.
-              </p>
+              <CardTitle className="text-lg font-semibold">Vision</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-base">{VISION}</p>
             </CardContent>
           </Card>
           <Card>
-            <CardContent className="space-y-3 py-8">
-              <span className="flex size-11 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-                <Target className="size-5" />
+            <CardHeader>
+              <span className="mb-2 flex size-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                <Target className="size-5" aria-hidden />
               </span>
-              <h3 className="text-lg font-semibold">Our Mission</h3>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                To provide integrated, holistic and dynamic care — nurturing the physical,
-                emotional, mental and spiritual well-being of our patients — through skilled
-                professionals, modern facilities and the Pauline charism of charity.
-              </p>
+              <CardTitle className="text-lg font-semibold">Mission</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="mb-2 text-sm text-muted-foreground">We commit ourselves to:</p>
+              <ol className="list-decimal space-y-2 pl-5 text-sm">
+                {MISSION.map((m) => (
+                  <li key={m}>{m}</li>
+                ))}
+              </ol>
             </CardContent>
           </Card>
         </div>
       </section>
 
-      {/* Holistic care values */}
-      <section className="px-6 py-14">
-        <div className="mx-auto max-w-5xl">
-          <div className="mb-8 text-center">
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary">
-              Our Philosophy
-            </p>
-            <h2 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
-              Holistic care for the whole person
-            </h2>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {VALUES.map((v) => (
+      {/* Core values */}
+      <section className="bg-secondary/50 px-4 py-16 sm:px-6">
+        <div className="mx-auto max-w-6xl">
+          <SectionHeading eyebrow="Core values" title="What guides every encounter" />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {CORE_VALUES.map((v) => (
               <Card key={v.title}>
-                <CardContent className="space-y-2 py-6 text-center">
-                  <h3 className="text-base font-semibold text-primary">{v.title}</h3>
-                  <p className="text-xs text-muted-foreground">{v.desc}</p>
+                <CardContent className="space-y-2">
+                  <span className="text-3xl font-bold text-primary/30" aria-hidden>{v.title[0]}</span>
+                  <h3 className="font-semibold">{v.title}</h3>
+                  <p className="text-sm text-muted-foreground">{v.desc}</p>
                 </CardContent>
               </Card>
             ))}
@@ -123,30 +87,32 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Accreditations */}
-      <section className="bg-secondary/40 px-6 py-14">
-        <div className="mx-auto max-w-5xl">
-          <div className="mb-8 text-center">
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary">
-              Awards &amp; Certificates
-            </p>
-            <h2 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
-              Accreditations &amp; recognitions
-            </h2>
+      {/* History */}
+      <section className="px-4 py-16 sm:px-6">
+        <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.4fr_1fr]">
+          <div>
+            <SectionHeading eyebrow="History" title="The humble beginning" />
+            <div className="space-y-4 text-muted-foreground">
+              {HISTORY.map((p) => (
+                <p key={p.slice(0, 40)}>{p}</p>
+              ))}
+            </div>
           </div>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {ACCREDITATIONS.map((a) => (
-              <Card key={a.name}>
-                <CardContent className="flex flex-col items-center gap-2 py-7 text-center">
-                  <span className="flex size-12 items-center justify-center rounded-full bg-primary/10 text-primary">
-                    <Award className="size-6" />
-                  </span>
-                  <p className="text-sm font-semibold leading-snug">{a.name}</p>
-                  <p className="text-xs text-muted-foreground">{a.detail}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          <aside aria-label="Milestones">
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-primary">Milestones</h3>
+            <ol className="relative space-y-6 border-l-2 border-primary/20 pl-6">
+              {MILESTONES.map((m) => (
+                <li key={m.year} className="relative">
+                  <span aria-hidden className="absolute -left-[31px] top-1 size-3 rounded-full bg-primary ring-4 ring-background" />
+                  <p className="text-sm font-semibold">{m.year}</p>
+                  <p className="text-sm text-muted-foreground">{m.text}</p>
+                </li>
+              ))}
+            </ol>
+            <Button variant="link" className="mt-4 px-0" render={<Link href="/about/accreditation#iso-journey" />}>
+              Our ISO journey <ArrowRight />
+            </Button>
+          </aside>
         </div>
       </section>
 

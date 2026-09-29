@@ -1,5 +1,6 @@
 "use client"
 
+import * as React from "react"
 import { Button as ButtonPrimitive } from "@base-ui/react/button"
 import { cva, type VariantProps } from "class-variance-authority"
 
@@ -46,12 +47,19 @@ function Button({
   className,
   variant = "default",
   size = "default",
+  render,
+  nativeButton,
   ...props
 }: ButtonPrimitive.Props & VariantProps<typeof buttonVariants>) {
+  // Rendering as a link (render={<Link />} / <a>) is not a native <button>;
+  // tell Base UI so it applies link-appropriate semantics instead of warning.
+  const rendersNonButton = React.isValidElement(render) && render.type !== "button"
   return (
     <ButtonPrimitive
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}
+      render={render}
+      nativeButton={nativeButton ?? !rendersNonButton}
       {...props}
     />
   )

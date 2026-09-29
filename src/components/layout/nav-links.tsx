@@ -9,6 +9,8 @@ import {
   Stethoscope,
   ClipboardCheck,
   UserCog,
+  Globe,
+  Inbox,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Role, AccountStatus } from "@/lib/types";
@@ -35,11 +37,17 @@ function getNavLinks(role: Role, status?: AccountStatus): NavLink[] {
     links.push({ href: "/doctors", label: "Doctors", icon: Stethoscope });
   }
 
+  if (role === "STAFF") {
+    links.push({ href: "/inquiries", label: "Inquiries", icon: Inbox });
+  }
+
   if (role === "ADMIN") {
     links.push({ href: "/patients", label: "Patients", icon: Users });
     links.push({ href: "/doctors", label: "Doctors", icon: Stethoscope });
     links.push({ href: "/admin/approvals", label: "Approvals", icon: ClipboardCheck });
     links.push({ href: "/admin/users", label: "Users", icon: UserCog });
+    links.push({ href: "/admin/website", label: "Website", icon: Globe });
+    links.push({ href: "/inquiries", label: "Inquiries", icon: Inbox });
   }
 
   return links;

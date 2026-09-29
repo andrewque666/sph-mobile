@@ -95,3 +95,131 @@ model DoctorProfile {
 
   @@map("doctor_profiles")
 }
+
+// ─── Public website CMS ────────────────────────────────────────────────────
+
+enum PostCategory {
+  NEWS
+  EVENT
+  AWARD
+}
+
+/// News & press releases, events & conferences, awards — managed from /admin/website.
+model Post {
+  id          String       @id @default(cuid())
+  slug        String       @unique
+  title       String
+  category    PostCategory @default(NEWS)
+  excerpt     String
+  body        String
+  imageUrl    String?
+  eventDate   DateTime?
+  location    String?
+  published   Boolean      @default(true)
+  publishedAt DateTime     @default(now())
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  @@index([published, category, publishedAt(sort: Desc)])
+  @@map("posts")
+}
+
+enum ServiceGroup {
+  SPECIALTY_HUB
+  SPICE
+  CANCER_CARE
+  ANCILLARY
+}
+
+/// Specialty centers and ancillary services shown on /services.
+model ServiceCenter {
+  id        String       @id @default(cuid())
+  slug      String       @unique
+  name      String
+  shortName String?
+  group     ServiceGroup
+  tagline   String?
+  summary   String
+  body      String
+  offerings String[]
+  schedule  String?
+  phone     String?
+  location  String?
+  sortOrder Int          @default(0)
+  published Boolean      @default(true)
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+
+  @@index([published, group, sortOrder])
+  @@map("service_centers")
+}
+
+/// Clinical departments — also the grouping for the public doctor directory.
+model ClinicalDepartment {
+  id               String            @id @default(cuid())
+  slug             String            @unique
+  name             String
+  description      String
+  chairman         String?
+  hasResidency     Boolean           @default(false)
+  facebookUrl      String?
+  sortOrder        Int               @default(0)
+  published        Boolean           @default(true)
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  directoryDoctors DirectoryDoctor[]
+
+  @@map("clinical_departments")
+}
+
+/// Public "Find a doctor" listing (clinic room, hours, local). Separate from
+/// DoctorProfile, which is a portal login account.
+model DirectoryDoctor {
+  id           String             @id @default(cuid())
+  firstName    String
+  lastName     String
+  departmentId String
+  department   ClinicalDepartment @relation(fields: [departmentId], references: [id], onDelete: Restrict)
+  specialty    String?
+  room         String?
+  schedule     String?
+  local        String?
+  phone        String?
+  published    Boolean            @default(true)
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+
+  @@index([departmentId, lastName])
+  @@map("directory_doctors")
+}
+
+enum InquiryType {
+  GENERAL
+  APPOINTMENT
+}
+
+enum InquiryStatus {
+  NEW
+  IN_PROGRESS
+  RESOLVED
+}
+
+/// Contact-us messages and appointment requests submitted from the website.
+model Inquiry {
+  id            String        @id @default(cuid())
+  type          InquiryType
+  status        InquiryStatus @default(NEW)
+  name          String
+  email         String
+  phone         String?
+  subject       String?
+  message       String
+  department    String?
+  doctor        String?
+  preferredDate DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  @@index([status, createdAt(sort: Desc)])
+  @@map("inquiries")
+}
