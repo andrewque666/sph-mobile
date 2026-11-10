@@ -12,7 +12,22 @@ export default auth((req) => {
 
   // Public marketing website + design showcase — reachable whether logged in
   // or not (no redirect for authenticated visitors, who can still browse it).
-  const publicSiteRoutes = ["/about", "/services", "/kitchen-sink", "/offline"];
+  const publicSiteRoutes = [
+    "/about",
+    "/services",
+    "/departments",
+    "/find-a-doctor",
+    "/results",
+    "/patients-and-visitors",
+    "/irb",
+    "/careers",
+    "/news",
+    "/contact",
+    "/appointments",
+    "/search",
+    "/kitchen-sink",
+    "/offline",
+  ];
   if (
     pathname === "/" ||
     publicSiteRoutes.some((r) => pathname === r || pathname.startsWith(`${r}/`))
@@ -32,6 +47,14 @@ export default auth((req) => {
   // All other routes require authentication
   if (!isLoggedIn) {
     return NextResponse.redirect(new URL("/login", nextUrl));
+  }
+
+  // Website inquiries — hospital staff and admins
+  if (pathname.startsWith("/inquiries")) {
+    if (user?.role !== "ADMIN" && user?.role !== "STAFF") {
+      return NextResponse.redirect(new URL("/dashboard", nextUrl));
+    }
+    return NextResponse.next();
   }
 
   // Admin routes — admin only
@@ -71,6 +94,6 @@ export default auth((req) => {
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|sphlogo.png|sw.js|manifest.webmanifest|icons).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|sphlogo.png|sw.js|manifest.webmanifest|icons|images|sitemap.xml|robots.txt).*)",
   ],
 };

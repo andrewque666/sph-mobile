@@ -1,124 +1,71 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, CalendarCheck } from "lucide-react";
+import { CalendarCheck, Stethoscope } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { ResultViewer } from "@/components/marketing/result-viewer";
-import { CtaBand } from "@/components/marketing/cta-band";
-import { DEPARTMENTS, CENTERS_OF_EXCELLENCE } from "@/components/marketing/site-data";
+import { PageHero } from "@/components/marketing/page-hero";
+import { SectionHeading } from "@/components/marketing/section-heading";
+import { ServiceCard } from "@/components/marketing/service-card";
+import { SERVICE_GROUP_LABELS } from "@/components/marketing/site-data";
+import { getServices, type ServiceGroup } from "@/lib/website";
 
 export const metadata: Metadata = {
-  title: "Services & Departments — St. Paul's Hospital of Iloilo",
+  title: "Services & Centers",
   description:
-    "Explore SPHI's medical services, departments and centers of excellence — and book seamlessly through the patient app.",
+    "SPHI's specialty hub (SPARC, Cath Lab, HBOT), S.P.I.C.E. centers, Cancer Center and 24/7 ancillary services — emergency, laboratory, imaging and pharmacy.",
+  alternates: { canonical: "/services" },
 };
 
-export default function ServicesPage() {
+export default async function ServicesPage() {
+  const services = await getServices();
+  const groups = (Object.keys(SERVICE_GROUP_LABELS) as ServiceGroup[])
+    .map((key) => ({ key, ...SERVICE_GROUP_LABELS[key], items: services.filter((s) => s.group === key) }))
+    .filter((g) => g.items.length > 0);
+
   return (
     <>
-      {/* Page hero */}
-      <section className="border-b border-border bg-secondary/40 px-6 py-14">
-        <div className="mx-auto max-w-4xl text-center">
-          <Badge variant="secondary" className="mb-3">
-            Services &amp; Departments
-          </Badge>
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Comprehensive care, all in one place
-          </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-sm text-muted-foreground sm:text-base">
-            From primary consultations to advanced specialty centers — explore our services
-            and continue into the patient app to book a consultation or view your results.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="Services"
+        title="Comprehensive care, all in one place"
+        description="From 24/7 emergency and diagnostics to first-in-Iloilo specialty centers — explore what SPHI offers and how to reach each unit."
+        crumbs={[{ label: "Services" }]}
+      >
+        <Button render={<Link href="/appointments" />}>
+          <CalendarCheck /> Request an appointment
+        </Button>
+        <Button variant="outline" render={<Link href="/departments" />}>
+          <Stethoscope /> Clinical departments
+        </Button>
+      </PageHero>
 
-      {/* Centers of excellence */}
-      <section className="px-6 py-14">
-        <div className="mx-auto max-w-5xl">
-          <div className="mb-8 text-center">
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary">
-              Centers of Excellence
-            </p>
-            <h2 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
-              Specialty Hub
-            </h2>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {CENTERS_OF_EXCELLENCE.map((c) => {
-              const Icon = c.icon;
-              return (
-                <Card key={c.code} className="transition-shadow hover:shadow-md">
-                  <CardContent className="flex gap-4 py-6">
-                    <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-                      <Icon className="size-6" />
-                    </span>
-                    <div className="space-y-1.5">
-                      <div className="flex items-center gap-2">
-                        <Badge variant="secondary">{c.code}</Badge>
-                        <h3 className="text-sm font-semibold">{c.name}</h3>
-                      </div>
-                      <p className="text-sm text-muted-foreground">{c.desc}</p>
-                    </div>
-                  </CardContent>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      {/* In-page jump nav */}
+      <nav aria-label="Service categories" className="sticky top-[6.25rem] z-30 border-b border-border bg-background/90 backdrop-blur">
+        <ul className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-4 py-2 sm:px-6">
+          {groups.map((g) => (
+            <li key={g.key} className="shrink-0">
+              <a href={`#${g.key.toLowerCase()}`} className="inline-block rounded-full px-3 py-1.5 text-sm font-medium text-muted-foreground hover:bg-muted hover:text-foreground">
+                {g.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
 
-      {/* Departments directory */}
-      <section className="bg-muted/40 px-6 py-14">
-        <div className="mx-auto max-w-5xl">
-          <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-primary">
-                Medical Services
-              </p>
-              <h2 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
-                Departments directory
-              </h2>
+      <div className="mx-auto max-w-6xl space-y-16 px-4 py-14 sm:px-6">
+        {groups.map((g) => (
+          <section key={g.key} id={g.key.toLowerCase()} aria-labelledby={`${g.key}-heading`} className="scroll-mt-40">
+            <SectionHeading id={`${g.key}-heading`} eyebrow={`${g.items.length} ${g.items.length === 1 ? "service" : "services"}`} title={g.label} description={g.description} />
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {g.items.map((s) => (
+                <ServiceCard key={s.id} service={s} />
+              ))}
             </div>
-            <Button render={<Link href="/register" />}>
-              <CalendarCheck /> Book via e-Patient
-            </Button>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {DEPARTMENTS.map((d) => {
-              const Icon = d.icon;
-              return (
-                <Card key={d.name} className="group transition-shadow hover:shadow-md">
-                  <CardContent className="flex items-start gap-3 py-5">
-                    <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                      <Icon className="size-5" />
-                    </span>
-                    <div className="min-w-0">
-                      <h3 className="text-sm font-semibold">{d.name}</h3>
-                      <p className="mt-0.5 text-xs text-muted-foreground">{d.desc}</p>
-                      <Link
-                        href="/login"
-                        className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100"
-                      >
-                        Find a doctor <ArrowRight className="size-3" />
-                      </Link>
-                    </div>
-                  </CardContent>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Online Result Viewer */}
-      <ResultViewer />
-
-      <CtaBand
-        heading="Ready to book your visit?"
-        subtext="Create your e-Patient account or sign in to book consultations, find a doctor and view results — one account across the website and the SPH app."
-      />
+          </section>
+        ))}
+        {groups.length === 0 && (
+          <p className="text-center text-muted-foreground">Service information is being updated. Please contact us for details.</p>
+        )}
+      </div>
     </>
   );
 }

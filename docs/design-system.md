@@ -219,6 +219,16 @@ Slots: `Card` (prop `size?: "default" | "sm"`), `CardHeader`, `CardTitle`, `Card
 </div>
 ```
 
+### Textarea — `@/components/ui/textarea`
+Multi-line counterpart of `Input` (same border, focus ring, `aria-invalid` and disabled styles;
+`field-sizing-content` grows with its content). Used by the website contact/appointment form and
+the CMS editors.
+
+```tsx
+<Label htmlFor="message">Message</Label>
+<Textarea id="message" rows={5} />
+```
+
 ### Label — `@/components/ui/label`
 Pair with controls via `htmlFor`. `text-sm font-medium`.
 
@@ -354,6 +364,18 @@ Reuse these established layouts rather than inventing new ones.
 - Sticky nav (logo on `bg-white/90` chip) → hero (`bg-primary`, tagline, CTAs) → **Online Result
   Viewer** 6-card grid → stats band (`bg-secondary`) → Specialty Hub cards → News cards → footer
   (`bg-sidebar text-sidebar-foreground`).
+- Live site: `src/app/(marketing)/*`, components in `src/components/marketing/*`:
+  - **`SiteHeader`** — `bg-sidebar` utility bar (24/7 hotline, quick links) + main bar with grouped
+    `DropdownMenu` nav (`openOnHover`), search icon and "Request appointment" CTA; stacked menu below `lg`.
+  - **`PageHero`** — interior-page header: breadcrumbs, eyebrow, H1, lead, optional action buttons on
+    `bg-secondary/50`. **`SectionHeading`** — eyebrow + H2 + description, optional right-side action.
+  - **`ServiceCard`** / **`PostCard`** — whole-card links (`after:absolute after:inset-0` on the title
+    link) with icon tile / 16:9 image, hover lift. **`ResultViewer`** — result-portal grid.
+  - **`DoctorFinder`** — `SearchInput` + department `Select`, client-side filter mirrored to the URL.
+  - **`InquiryForm`** — contact / appointment request form (react-hook-form + zod, honeypot field).
+- Content: slow-changing copy in `src/components/marketing/site-data.ts`; news, services, clinical
+  departments and the doctor directory are DB-backed and edited at `/admin/website`
+  (`src/components/website-admin/*`). Website inquiries are handled at `/inquiries` (admin/staff).
 
 **Mobile app frame — see `src/components/kitchen-sink/{phone-frame,app-preview}.tsx`**
 - `PhoneFrame` (bezel, notch, status bar, home indicator) + bottom tab bar. Screens reuse the

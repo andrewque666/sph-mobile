@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.git/
+.gitignore
+.env*
+.claude/
+.vscode/
+.idea/
+coverage/
+*.md
+*.tsbuildinfo
+*.log
+src/generated/
+Dockerfile
+.dockerignore
+docker-compose.yml

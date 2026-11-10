@@ -32,6 +32,7 @@ import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Separator } from "@/components/ui/separator";
@@ -399,6 +400,10 @@ export function UiKit() {
               <div className="space-y-2">
                 <Label htmlFor="ks-disabled">Disabled</Label>
                 <Input id="ks-disabled" disabled placeholder="Not editable" />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="ks-notes">Notes (Textarea)</Label>
+                <Textarea id="ks-notes" rows={3} placeholder="Reason for visit…" />
               </div>
             </CardContent>
             <CardFooter className="justify-end gap-2">
