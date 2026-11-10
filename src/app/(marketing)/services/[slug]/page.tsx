@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CalendarCheck, Check, Clock, MapPin, Phone } from "lucide-react";
@@ -9,6 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { PageHero } from "@/components/marketing/page-hero";
 import { ServiceCard } from "@/components/marketing/service-card";
 import { SERVICE_GROUP_LABELS, SITE } from "@/components/marketing/site-data";
+import { SERVICE_IMAGES } from "@/components/marketing/site-images";
 import { getService, getServices, paragraphs } from "@/lib/website";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -31,6 +33,7 @@ export default async function ServiceDetailPage({ params }: Props) {
 
   const related = (await getServices()).filter((s) => s.group === service.group && s.id !== service.id).slice(0, 3);
   const group = SERVICE_GROUP_LABELS[service.group];
+  const image = SERVICE_IMAGES[service.slug];
 
   return (
     <>
@@ -52,6 +55,17 @@ export default async function ServiceDetailPage({ params }: Props) {
 
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1fr_320px]">
         <article className="min-w-0 space-y-10">
+          {image && (
+            <Image
+              src={image.src}
+              width={image.width}
+              height={image.height}
+              alt={image.alt}
+              priority
+              sizes="(min-width: 1152px) 784px, 100vw"
+              className="h-auto w-full rounded-xl ring-1 ring-foreground/10"
+            />
+          )}
           <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
             {paragraphs(service.body).map((p) => (
               <p key={p.slice(0, 40)} className="whitespace-pre-line">{p}</p>

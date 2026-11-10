@@ -33,6 +33,7 @@ export function SiteFooter() {
           </span>
           <p className="text-sm leading-relaxed text-sidebar-foreground/70">{SITE.description}</p>
           <p className="text-sm italic text-sidebar-foreground/80">{SITE.motto}</p>
+          <p className="text-sm text-sidebar-foreground/70">{SITE.values}</p>
           <ul className="flex flex-wrap gap-2" aria-label="Social media">
             {SITE.social.map((s) => {
               const Icon = SOCIAL_ICONS[s.label];

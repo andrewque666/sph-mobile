@@ -27,7 +27,7 @@ export default function PatientsAndVisitorsPage() {
       <PageHero
         eyebrow="Patients & visitors"
         title="Your guide to St. Paul's Hospital"
-        description="A tertiary level training general hospital with a capacity of 180 beds. Here's what to expect before, during and after your stay."
+        description="A tertiary level training general hospital with a capacity of 265 beds. Here's what to expect before, during and after your stay."
         crumbs={[{ label: "Patients & Visitors" }]}
       />
 

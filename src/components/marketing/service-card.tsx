@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   Wind,
@@ -24,6 +25,7 @@ import {
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
+import { SERVICE_IMAGES } from "@/components/marketing/site-images";
 
 const ICONS: Record<string, LucideIcon> = {
   sparc: Wind,
@@ -55,15 +57,30 @@ type ServiceCardData = {
 
 export function ServiceCard({ service }: { service: ServiceCardData }) {
   const Icon = ICONS[service.slug] ?? Stethoscope;
+  const image = SERVICE_IMAGES[service.slug];
   return (
     <Card className="group relative h-full transition-all hover:-translate-y-0.5 hover:shadow-lg focus-within:ring-2 focus-within:ring-ring">
+      {image && (
+        <Image
+          src={image.src}
+          width={image.width}
+          height={image.height}
+          alt={image.alt}
+          sizes="(min-width: 1024px) 384px, (min-width: 640px) 50vw, 100vw"
+          className="h-auto w-full"
+        />
+      )}
       <CardContent className="flex h-full flex-col gap-3 py-2">
-        <div className="flex items-start justify-between gap-3">
-          <span className="flex size-11 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-            <Icon className="size-5" aria-hidden />
-          </span>
-          {service.shortName && <Badge variant="secondary">{service.shortName}</Badge>}
-        </div>
+        {(!image || service.shortName) && (
+          <div className="flex items-start justify-between gap-3">
+            {!image && (
+              <span className="flex size-11 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                <Icon className="size-5" aria-hidden />
+              </span>
+            )}
+            {service.shortName && <Badge variant="secondary">{service.shortName}</Badge>}
+          </div>
+        )}
         <h3 className="text-base font-semibold leading-snug">
           <Link href={`/services/${service.slug}`} className="outline-none after:absolute after:inset-0">
             {service.name}

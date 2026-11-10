@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { BadgeCheck } from "lucide-react";
 import { PageHero } from "@/components/marketing/page-hero";
 import { SectionHeading } from "@/components/marketing/section-heading";
@@ -10,6 +11,12 @@ import {
   IMS_POLICY,
   ISO_JOURNEY,
 } from "@/components/marketing/site-data";
+
+import {
+  PARTNER_LOGOS,
+  logoForAccreditationItem,
+  logosForAccreditationGroup,
+} from "@/components/marketing/site-images";
 
 export const metadata: Metadata = {
   title: "Accreditation & IMS Policy",
@@ -42,15 +49,30 @@ export default function AccreditationPage() {
           <div className="space-y-12">
             {ACCREDITATIONS.map((a, idx) => (
               <section key={a.group} aria-labelledby={`accreditation-${idx}`}>
-                <h2 id={`accreditation-${idx}`} className="text-xl font-semibold">{a.group}</h2>
+                <div className="flex flex-wrap items-center gap-3">
+                  {logosForAccreditationGroup(a.group).map((l) => (
+                    <span key={l.src} className="flex items-center rounded-xl bg-white p-2 ring-1 ring-foreground/10">
+                      <Image src={l.src} width={l.width} height={l.height} alt={l.name} sizes="96px" className="h-14 w-auto" />
+                    </span>
+                  ))}
+                  <h2 id={`accreditation-${idx}`} className="text-xl font-semibold">{a.group}</h2>
+                </div>
                 <p className="mt-2 max-w-3xl text-muted-foreground">{a.summary}</p>
                 {a.items.length > 0 && (
                   <ul className="mt-4 grid gap-3 md:grid-cols-2">
-                    {a.items.map((i) => (
+                    {a.items.map((i) => {
+                      const logo = logoForAccreditationItem(i.name);
+                      return (
                       <li key={i.name}>
                         <Card size="sm" className="h-full">
                           <CardContent className="flex gap-3">
-                            <BadgeCheck className="mt-0.5 size-5 shrink-0 text-primary" aria-hidden />
+                            {logo ? (
+                              <span className="flex size-14 shrink-0 items-center justify-center rounded-lg bg-white p-1 ring-1 ring-foreground/10">
+                                <Image src={logo.src} width={logo.width} height={logo.height} alt={logo.name} sizes="56px" className="max-h-full w-auto" />
+                              </span>
+                            ) : (
+                              <BadgeCheck className="mt-0.5 size-5 shrink-0 text-primary" aria-hidden />
+                            )}
                             <div>
                               <p className="font-semibold">{i.name}</p>
                               <p className="text-sm text-muted-foreground">{i.detail}</p>
@@ -58,11 +80,26 @@ export default function AccreditationPage() {
                           </CardContent>
                         </Card>
                       </li>
-                    ))}
+                      );
+                    })}
                   </ul>
                 )}
               </section>
             ))}
+
+            <section aria-labelledby="partners-heading">
+              <h2 id="partners-heading" className="text-xl font-semibold">Partners</h2>
+              <ul className="mt-4 flex flex-wrap gap-3">
+                {PARTNER_LOGOS.map((l) => (
+                  <li key={l.src} className="flex items-center gap-3 rounded-xl bg-card p-3 ring-1 ring-foreground/10">
+                    <span className="flex items-center rounded-lg bg-white p-1 ring-1 ring-foreground/10">
+                      <Image src={l.src} width={l.width} height={l.height} alt="" sizes="56px" className="h-14 w-auto" />
+                    </span>
+                    <span className="text-sm font-semibold">{l.name}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
           </div>
         </div>
       </section>

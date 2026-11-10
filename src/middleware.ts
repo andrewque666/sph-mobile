@@ -94,6 +94,6 @@ export default auth((req) => {
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|sphlogo.png|sw.js|manifest.webmanifest|icons|sitemap.xml|robots.txt).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|sphlogo.png|sw.js|manifest.webmanifest|icons|images|sitemap.xml|robots.txt).*)",
   ],
 };

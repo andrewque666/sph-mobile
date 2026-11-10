@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { GraduationCap, Users, Facebook, ArrowRight } from "lucide-react";
 
@@ -6,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { PageHero } from "@/components/marketing/page-hero";
 import { SectionHeading } from "@/components/marketing/section-heading";
+import { DEPARTMENT_IMAGES } from "@/components/marketing/site-images";
 import { getDepartments } from "@/lib/website";
 
 export const metadata: Metadata = {
@@ -30,8 +32,20 @@ export default async function DepartmentsPage() {
 
       <section className="px-4 py-14 sm:px-6">
         <div className="mx-auto grid max-w-6xl gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {departments.map((d) => (
+          {departments.map((d) => {
+            const image = DEPARTMENT_IMAGES[d.slug];
+            return (
             <Card key={d.id} id={d.slug} className="scroll-mt-28">
+              {image && (
+                <Image
+                  src={image.src}
+                  width={image.width}
+                  height={image.height}
+                  alt={image.alt}
+                  sizes="(min-width: 1152px) 384px, (min-width: 640px) 50vw, 100vw"
+                  className="h-auto w-full"
+                />
+              )}
               <CardContent className="flex h-full flex-col gap-3">
                 <div className="flex flex-wrap items-center gap-2">
                   <h2 className="text-lg font-semibold">{d.name}</h2>
@@ -63,7 +77,8 @@ export default async function DepartmentsPage() {
                 </div>
               </CardContent>
             </Card>
-          ))}
+            );
+          })}
         </div>
       </section>
 

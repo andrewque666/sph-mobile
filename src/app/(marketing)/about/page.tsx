@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Eye, Target, ArrowRight } from "lucide-react";
 
@@ -15,6 +16,8 @@ import {
   MISSION,
   CORE_VALUES,
 } from "@/components/marketing/site-data";
+
+import { ABOUT_IMAGES, HERO_IMAGES } from "@/components/marketing/site-images";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -35,6 +38,18 @@ export default function AboutPage() {
         <Button render={<Link href="/about/leadership" />}>Our leadership</Button>
         <Button variant="outline" render={<Link href="/about/accreditation" />}>Accreditation</Button>
       </PageHero>
+
+      <div className="px-4 pt-10 sm:px-6">
+        <Image
+          src={HERO_IMAGES.facade.src}
+          width={HERO_IMAGES.facade.width}
+          height={HERO_IMAGES.facade.height}
+          alt={HERO_IMAGES.facade.alt}
+          priority
+          sizes="(min-width: 1152px) 1152px, 100vw"
+          className="mx-auto aspect-[2/1] w-full max-w-6xl rounded-2xl object-cover ring-1 ring-foreground/10 sm:aspect-[21/9]"
+        />
+      </div>
 
       {/* Vision & mission */}
       <section className="px-4 py-16 sm:px-6">
@@ -67,12 +82,32 @@ export default function AboutPage() {
             </CardContent>
           </Card>
         </div>
+        <div className="mx-auto mt-6 max-w-6xl">
+          <Image
+            src={ABOUT_IMAGES.missionVision.src}
+            width={ABOUT_IMAGES.missionVision.width}
+            height={ABOUT_IMAGES.missionVision.height}
+            alt={ABOUT_IMAGES.missionVision.alt}
+            sizes="(min-width: 1152px) 1152px, 100vw"
+            className="h-auto w-full rounded-xl ring-1 ring-foreground/10"
+          />
+        </div>
       </section>
 
       {/* Core values */}
       <section className="bg-secondary/50 px-4 py-16 sm:px-6">
         <div className="mx-auto max-w-6xl">
           <SectionHeading eyebrow="Core values" title="What guides every encounter" />
+          <div className="mb-6">
+            <Image
+              src={ABOUT_IMAGES.team.src}
+              width={ABOUT_IMAGES.team.width}
+              height={ABOUT_IMAGES.team.height}
+              alt={ABOUT_IMAGES.team.alt}
+              sizes="(min-width: 1152px) 1152px, 100vw"
+              className="h-auto w-full rounded-xl ring-1 ring-foreground/10"
+            />
+          </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {CORE_VALUES.map((v) => (
               <Card key={v.title}>
@@ -92,11 +127,34 @@ export default function AboutPage() {
         <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.4fr_1fr]">
           <div>
             <SectionHeading eyebrow="History" title="The humble beginning" />
+            <div className="mb-6">
+              <Image
+                src={ABOUT_IMAGES.history.src}
+                width={ABOUT_IMAGES.history.width}
+                height={ABOUT_IMAGES.history.height}
+                alt={ABOUT_IMAGES.history.alt}
+                sizes="(min-width: 1024px) 660px, 100vw"
+                className="h-auto w-full rounded-xl ring-1 ring-foreground/10"
+              />
+            </div>
             <div className="space-y-4 text-muted-foreground">
               {HISTORY.map((p) => (
                 <p key={p.slice(0, 40)}>{p}</p>
               ))}
             </div>
+            <figure className="mt-8">
+              <Image
+                src={ABOUT_IMAGES.chapel.src}
+                width={ABOUT_IMAGES.chapel.width}
+                height={ABOUT_IMAGES.chapel.height}
+                alt={ABOUT_IMAGES.chapel.alt}
+                sizes="(min-width: 1024px) 660px, 100vw"
+                className="h-auto w-full rounded-xl ring-1 ring-foreground/10"
+              />
+              <figcaption className="mt-2 text-xs text-muted-foreground">
+                The hospital chapel: spiritual care is part of every patient&apos;s healing.
+              </figcaption>
+            </figure>
           </div>
           <aside aria-label="Milestones">
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-primary">Milestones</h3>

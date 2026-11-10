@@ -1,1972 +1,1782 @@
 [
- {
-  "department": "internal-medicine",
-  "firstName": "Joefil",
-  "lastName": "Acosta",
-  "room": "SPICE 252",
-  "schedule": "M|T|TH|F 9-1pm 2-5PM W|S 9-1pm by appointment",
-  "local": "2054",
-  "phone": "3381814",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Joel",
-  "lastName": "Advincula",
-  "room": "PLCC 309",
-  "schedule": "M|F 10-12nn",
-  "local": null,
-  "phone": "3377846",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Leah",
-  "lastName": "Agreda",
-  "room": "SPICE 242",
-  "schedule": "M|TH 10-4pm S 11-3pm Except Friday",
-  "local": "8242",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ramel Ramon",
-  "lastName": "Balbastro",
-  "room": "PLCC 308",
-  "schedule": "M|T|W|TH|F 9-4pm S 9-12nn",
-  "local": "7308",
-  "phone": "3376732",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Yul",
-  "lastName": "Balleza",
-  "room": "SPICE 235",
-  "schedule": "M|T||W|TH|F|S 9-12nn on call",
-  "local": null,
-  "phone": "3354919",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Janet",
-  "lastName": "Beltran",
-  "room": "SPICE 220",
-  "schedule": "M|T|TH|F|S 9-3pm Except Wednesday",
-  "local": "8220",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Cornelio II",
-  "lastName": "Borreros",
-  "room": "SPICE 303",
-  "schedule": "Appointment Only",
-  "local": "8302",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Dexter Dale",
-  "lastName": "Briones",
-  "room": null,
-  "schedule": "Clinic Resumes June 15, 2020 · June (M & F only) · July (M, W, F only) · August (M, T, TH, F only)",
-  "local": null,
-  "phone": "3275102 · MD CP: 09178008202 / 09209544833 · Secretary CP: 09176228202 / 09209645548",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Rosauro",
-  "lastName": "Cabana",
-  "room": "SPICE 214",
-  "schedule": "M|T|TH|F 10-5pm S|9-12nn Except Wednesday",
-  "local": "8214",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Helen",
-  "lastName": "Caro-Pastolero",
-  "room": "SPICE 304",
-  "schedule": "M|T|TH|F|S 2-6pm, except W, Sun & Holidays",
-  "local": null,
-  "phone": "3372742 to 49 local 2203 · Secretary: 09283681946 | 09299667608 · MD: 09083171248",
-  "specialty": "Internal Medicine - Nephrology — Kidney Diseases / Transplantation/ Dialysis and General Medicine"
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Marian",
-  "lastName": "Celis",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Fel Angelie",
-  "lastName": "Colon",
-  "room": "SPICE 207",
-  "schedule": "M|W|F 10-2pm",
-  "local": "8207",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ethel",
-  "lastName": "Cordero",
-  "room": "SPICE 237",
-  "schedule": "M|T|W|TH|F 10:30-2pm S 11-1pm",
-  "local": "8237",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Christopher Rey",
-  "lastName": "De Guzman",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ma. Sylvia Therese",
-  "lastName": "De Pili",
-  "room": "SPICE 206",
-  "schedule": "M|T||W|TH 9:30-3pm S 9:30-12nn",
-  "local": "8206",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ellamae",
-  "lastName": "Divinagracia",
-  "room": "PLCC 302",
-  "schedule": "M|T|W|TH|F|S 12:30 onwards",
-  "local": "7302",
-  "phone": "3375358",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Roger",
-  "lastName": "Dulos",
-  "room": "Cancer Center 4004",
-  "schedule": "M|T|W|TH|F|S 10-1pm",
-  "local": null,
-  "phone": "6340",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Danilo",
-  "lastName": "Encarnacion",
-  "room": "PLCC 208",
-  "schedule": "M|T|W|TH|F 9-1pm 3-5pm S 9-1pm",
-  "local": "6208",
-  "phone": "3361555",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Marcelino",
-  "lastName": "Felisarta",
-  "room": "SPICE 239",
-  "schedule": "on call",
-  "local": "8239",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Malbar",
-  "lastName": "Ferrer",
-  "room": "SPICE (3rd Floor In Front Of elevator)",
-  "schedule": "M|T|W|TH|F|S 2pm by appointment",
-  "local": "8310",
-  "phone": "3366536",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Mark Leonard",
-  "lastName": "Flores",
-  "room": "PLCC 205",
-  "schedule": "M|T|W|TH|F|S 9-4pm",
-  "local": "6205",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ma. Cecilia",
-  "lastName": "Florete",
-  "room": "SPICE 239",
-  "schedule": "M|T|TH|F|S 9-12nn Except Wednesday",
-  "local": "8239",
-  "phone": "09499007559",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Delma",
-  "lastName": "Franco",
-  "room": "PLCC 307",
-  "schedule": "M|T|W|TH|F 11-2PM S 10-12nn",
-  "local": "7307",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Francis Cyril",
-  "lastName": "Ganzon",
-  "room": "SPICE 245",
-  "schedule": "M|W|F 10-2pm T 2-4pm Except Thursday & Saturday",
-  "local": "8245",
-  "phone": "09279123353",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Jovie",
-  "lastName": "Gerona",
-  "room": "Cancer Center 4004",
-  "schedule": "M|T|W|TH|F|S 1:30-4pm",
-  "local": "6340",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Lucita",
-  "lastName": "Jalbuena",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Rolando",
-  "lastName": "Jardeleza",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Anita",
-  "lastName": "Jesena",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Rene",
-  "lastName": "Juaneza",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Maria Zeny",
-  "lastName": "Lauron-Loquiano",
-  "room": "SPICE 239",
-  "schedule": "on call",
-  "local": "8239",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Eugine",
-  "lastName": "Lim",
-  "room": "SPICE 234",
-  "schedule": "M|T|TH 10-12nn",
-  "local": null,
-  "phone": "3376072",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Lenny",
-  "lastName": "Malaki",
-  "room": "SPICE 225",
-  "schedule": "M|T|W|TH|F 10-2:30pm S 10-1pm",
-  "local": "8225",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Elma",
-  "lastName": "Marañon",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Rex Melchor",
-  "lastName": "Muyco",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Theresa Rubi",
-  "lastName": "Nadala",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ma. Lucille",
-  "lastName": "Nava",
-  "room": "PLCC 209",
-  "schedule": null,
-  "local": "6209",
-  "phone": "3378676",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Dolores",
-  "lastName": "Octaviano",
-  "room": "PLCC 209",
-  "schedule": "M|T|TH|F| 11-2pm Saturday by appoinment except Wednesday",
-  "local": "6203",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Hazel",
-  "lastName": "Oro-Yadao",
-  "room": "SPICE 205",
-  "schedule": "M|T|W|TH|F 9:30-12nn",
-  "local": "2025",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Mary Anne Jean",
-  "lastName": "Patrimonio",
-  "room": "SPICE 229",
-  "schedule": "M|T|W|TH|F|S 10-5pm",
-  "local": "8229",
-  "phone": "3375912",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Amee Lourdes",
-  "lastName": "Ponje",
-  "room": "SPICE 244",
-  "schedule": "M|T|TH|F|S 3-5pm Except Wednesday",
-  "local": "8244",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Edgar",
-  "lastName": "Portigo",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ricardo",
-  "lastName": "Portigo",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Jane Frances",
-  "lastName": "Retiro",
-  "room": "PLCC 308",
-  "schedule": "M|T|W|TH|F 9-4pm S by appointment",
-  "local": "7308",
-  "phone": "3376732",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Lorelei",
-  "lastName": "Sirilan",
-  "room": "SPICE 222",
-  "schedule": "M|T|W|F 11-3pm S 11-1pm Except Thursday",
-  "local": "8222",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Eufemio",
-  "lastName": "Sobrevega",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Leonor",
-  "lastName": "Sobrevega",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Sheila May",
-  "lastName": "Sonza",
-  "room": "SPICE 245",
-  "schedule": "M|W|S 10-3pm T|TH|F 10-4pm",
-  "local": "8245",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Miguel",
-  "lastName": "Sotomil",
-  "room": "SPICE 234",
-  "schedule": "M|T|W|TH|F 2-4pm",
-  "local": null,
-  "phone": "3376072",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Louie",
-  "lastName": "Tirador",
-  "room": "SPICE 236",
-  "schedule": "M|T|TH|F 10-2pm Except Wed & Sat IDH M-F 3-5pm",
-  "local": "6206",
-  "phone": "3376441",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Rodrose",
-  "lastName": "Trivilegio-Guzman",
-  "room": "SPICE 201",
-  "schedule": "M|T|W|TH|F 9-4pm S 10-2pm",
-  "local": "6210",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Alda",
-  "lastName": "Tulio",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Anna Marie",
-  "lastName": "Velasco",
-  "room": "SPICE 237",
-  "schedule": "M|T|W|TH 10-4pm Except Friday",
-  "local": "8237",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Cherry Pink",
-  "lastName": "Villa",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Mary Grace",
-  "lastName": "Villa-Toledo",
-  "room": "SPICE 242",
-  "schedule": "M|T|W|TH|F|S 1-3pm by appoinment",
-  "local": "8242",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Gil",
-  "lastName": "Villanueva",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Noel",
-  "lastName": "Binayas",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Dianne",
-  "lastName": "Cacho",
-  "room": "PLCC 212",
-  "schedule": "T 1 pm - 4 pm W|F|S 10 am - 2 pm",
-  "local": null,
-  "phone": "09482019042",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Sheila Mae",
-  "lastName": "Jalandra",
-  "room": "PLCC 212",
-  "schedule": "T 1 pm - 4 pm W|S 10 am - 2 pm",
-  "local": null,
-  "phone": "3376117",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Cecilia",
-  "lastName": "Cercado",
-  "room": "SPICE 202",
-  "schedule": "M|T|W|TH|F 10 am - 2 pm S 10 am - 12 nn",
-  "local": "8202",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Rogelio",
-  "lastName": "Engada",
-  "room": "SPICE 215",
-  "schedule": "M|W 9 am - 3 pm T|F 1 pm - 4 pm",
-  "local": "8215",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Janice",
-  "lastName": "Santiago",
-  "room": "SPICE 215",
-  "schedule": "M|W|F 1 pm - 4 pm T|TH 10 am - 3 pm",
-  "local": "8215",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ryndell",
-  "lastName": "Alava",
-  "room": "SPICE 218",
-  "schedule": "By appointment",
-  "local": "8218",
-  "phone": "5033520/ 09173127773",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ronald",
-  "lastName": "Latap",
-  "room": "SPICE 230",
-  "schedule": "M|T|W|TH|F|S 9 am - 1 pm",
-  "local": null,
-  "phone": "3934480/09108660005/09171426418",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Genevieve",
-  "lastName": "Majewski",
-  "room": "230",
-  "schedule": "M|T|W|TH|F 2pm - 5pm S 10am-3pm",
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Marie Hazel Ivy",
-  "lastName": "Mueño",
-  "room": "SPICE 230",
-  "schedule": "M|T|TH|F 11 am - 4pm S 10am - 12nn",
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Roberto",
-  "lastName": "Estepar",
-  "room": "251",
-  "schedule": "M|W|F|S 11am - 2 pm",
-  "local": "8251",
-  "phone": "5032541",
-  "specialty": null
- },
- {
-  "department": "internal-medicine",
-  "firstName": "Ty Alekzander",
-  "lastName": "Talamera",
-  "room": "SPICE",
-  "schedule": "M|T|W|TH|F 11am-2pm",
-  "local": null,
-  "phone": "09459611546",
-  "specialty": null
- },
- {
-  "department": "rehabilitation-medicine",
-  "firstName": "Minda Marie",
-  "lastName": "Cabrera",
-  "room": "SPICE REHAB",
-  "schedule": "M|T|TH|F|S 2-5pm",
-  "local": "8306",
-  "phone": "337274149",
-  "specialty": null
- },
- {
-  "department": "rehabilitation-medicine",
-  "firstName": "Adrilee",
-  "lastName": "Gicos",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "psychiatry",
-  "firstName": "Victor",
-  "lastName": "Amantillo",
-  "room": "SPICE 249",
-  "schedule": "M|T|W|TH|F|S by appointment",
-  "local": "8249",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "psychiatry",
-  "firstName": "Diosdado Jr.",
-  "lastName": "Amargo",
-  "room": "SPICE 249",
-  "schedule": "M|T|W|TH|F|S by appointment",
-  "local": "8249",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "psychiatry",
-  "firstName": "Aimee",
-  "lastName": "Chua",
-  "room": "SPICE 249",
-  "schedule": "M|T|W|TH|F|S by appointment",
-  "local": "8249",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "psychiatry",
-  "firstName": "Daisy",
-  "lastName": "Chua-Daquilanea",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "psychiatry",
-  "firstName": "Rowena",
-  "lastName": "Cosca",
-  "room": "PLCC 309",
-  "schedule": "M|T|W|TH|F by appointment S 1-5pm",
-  "local": null,
-  "phone": "3377846",
-  "specialty": null
- },
- {
-  "department": "psychiatry",
-  "firstName": "Henrietta",
-  "lastName": "Española",
-  "room": "SPICE 238",
-  "schedule": "M|T|W|TH|F|S except W by appointment",
-  "local": "8238",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "psychiatry",
-  "firstName": "Ruel",
-  "lastName": "Malata",
-  "room": "SPICE 249",
-  "schedule": "M|T|W|TH|F|S by appointment",
-  "local": "8249",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Roperto",
-  "lastName": "Abellon",
-  "room": "239",
-  "schedule": "M|W|F",
-  "local": "8239",
-  "phone": "3372742-49 · CP: 09074231708",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Jerry",
-  "lastName": "Alabado",
-  "room": "SPICE 218",
-  "schedule": "M|T|W|TH|F 10-12nn by appointment",
-  "local": "8218",
-  "phone": "09165356036",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Roberto",
-  "lastName": "Alfabeto",
-  "room": "PLCC 211",
-  "schedule": "M|T|W|TH|F|S 10-12nn",
-  "local": "6211",
-  "phone": "3362111",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Federico",
-  "lastName": "Arcenas",
-  "room": "SPICE 234",
-  "schedule": "M|T|TH|F|S 10:30-12:30nn Except W",
-  "local": null,
-  "phone": "3376072",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Steven",
-  "lastName": "Bacalian",
-  "room": "SPICE 244",
-  "schedule": "M|T|W|TH|F|S 10-12nn by appointment",
-  "local": "8244",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Romulo",
-  "lastName": "Barrameda",
-  "room": "PLCC 306",
-  "schedule": "M|T|W|TH|F 11-4pm by appointment",
-  "local": null,
-  "phone": "5082811",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Noel",
-  "lastName": "Binayas",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Raoul",
-  "lastName": "Cañonero",
-  "room": "SPICE 213",
-  "schedule": "M|W|F 10-12nn on call",
-  "local": "8213",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Ryan",
-  "lastName": "Comuelo",
-  "room": "208",
-  "schedule": "T-TH 12nn-1pm by appointment",
-  "local": "8208",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Luis Serafin",
-  "lastName": "Dabao",
-  "room": "PLCC 210",
-  "schedule": "M|T|W|TH|F 9-4pm S 12-2pm by appointment",
-  "local": "6210",
-  "phone": "3235448",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Pacifico Jr.",
-  "lastName": "Dalisay",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Manuel",
-  "lastName": "De Asis",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Giovanni",
-  "lastName": "Delos Reyes",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Bryan",
-  "lastName": "Evangelista",
-  "room": "SPICE 255",
-  "schedule": "T|W|F 10-2PM Sat by appointment)",
-  "local": "6225",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Gaudencio Jr.",
-  "lastName": "Franco",
-  "room": "SPICE 212",
-  "schedule": "M|T|W|TH|F|S 10-12nn on call",
-  "local": "8212",
-  "phone": "09309256416",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Venerio Jr.",
-  "lastName": "Gasataya",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Nemesio",
-  "lastName": "Granada",
-  "room": "SPICE 244",
-  "schedule": "T|W|F 10-12nn",
-  "local": "8244",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Marcelo",
-  "lastName": "Jaen",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Ken Hilario III",
-  "lastName": "Lapastora",
-  "room": "SPICE 246",
-  "schedule": "M|T|W|TH|F|S 10-4pm",
-  "local": "8246",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Julien",
-  "lastName": "Latris-Certeza",
-  "room": "SPICE 216",
-  "schedule": "M|T|W|TH|F 9-12nn S by appointment",
-  "local": null,
-  "phone": "3377289 · 09309256416",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Amado",
-  "lastName": "Lavalle",
-  "room": "PLCC 204",
-  "schedule": "M|T|W|TH|F|S 9-12pm",
-  "local": "6360",
-  "phone": "3377281",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Nathalie Faye",
-  "lastName": "Lee",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Lister",
-  "lastName": "Leonida",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Glenn",
-  "lastName": "Maclang",
-  "room": "SPICE 243",
-  "schedule": "M|T|W|TH|F|S 10-12nn",
-  "local": null,
-  "phone": "3331248",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Leo",
-  "lastName": "Malunes",
-  "room": "213",
-  "schedule": "T|TH 10am-12nn On call",
-  "local": "8213",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Guadalupe",
-  "lastName": "Matejka",
-  "room": "SPICE 213",
-  "schedule": "T|TH|S 1-5pm",
-  "local": "8213",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Maximo",
-  "lastName": "Nadala",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Wilfredo",
-  "lastName": "Polido",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Antonio III",
-  "lastName": "Reyes",
-  "room": "SPICE 216",
-  "schedule": "M|T|TH|F 2-4pm Sat 10-12nn by appointment",
-  "local": null,
-  "phone": "3377289",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Antonio Jr.",
-  "lastName": "Reyes",
-  "room": "216",
-  "schedule": "M-F 10 am -12 nn",
-  "local": null,
-  "phone": "3377289",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Raul",
-  "lastName": "Sancho",
-  "room": "SPICE 203",
-  "schedule": "M|T|W|TH|F|S 10-2pm",
-  "local": "8203",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Marben",
-  "lastName": "Solon",
-  "room": "SPICE 231",
-  "schedule": "M|T|W|TH|F|S 9-5pm",
-  "local": "8231",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Levy",
-  "lastName": "Suyo",
-  "room": "PLCC 207",
-  "schedule": "M|T|W|TH|F|S 10-2pm",
-  "local": "6207",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Pedro Jr.",
-  "lastName": "Tingson",
-  "room": "PLCC 203",
-  "schedule": "M|T|W|TH|F|S 2-4pm",
-  "local": "6204",
-  "phone": "3376449",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Rolando",
-  "lastName": "Tiongson",
-  "room": "PLCC 212",
-  "schedule": "M|T|TH 10-12nn W|F on Qualimed 10-12pm",
-  "local": null,
-  "phone": "3376117",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Juam Manuel",
-  "lastName": "Tirol",
-  "room": "SPICE 213",
-  "schedule": "T|TH 2-4pm S 10-12nn",
-  "local": "8213",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Ma. Elena",
-  "lastName": "Villareal",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Nestor",
-  "lastName": "Cercado",
-  "room": "SPICE 202",
-  "schedule": "S On call",
-  "local": "8202",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Gibby R.",
-  "lastName": "Urbano",
-  "room": "SPICE 2F 246",
-  "schedule": "M|W|F 9am - 12nn",
-  "local": null,
-  "phone": "09452631964",
-  "specialty": null
- },
- {
-  "department": "surgery",
-  "firstName": "Jessie",
-  "lastName": "Uy",
-  "room": "231",
-  "schedule": "M|T|W|TH|F|S 9am - 12 nn",
-  "local": "8232",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "dentistry",
-  "firstName": "Aurelio",
-  "lastName": "Ampig",
-  "room": "SPICE 248",
-  "schedule": "M|T|W|TH|F 9-12nn 2:30-5pm S 9-12nn",
-  "local": null,
-  "phone": "3372419",
-  "specialty": null
- },
- {
-  "department": "dentistry",
-  "firstName": "Teresa",
-  "lastName": "Enojo",
-  "room": "248",
-  "schedule": "W|S 1-5pm TH|F|S 9-5pm",
-  "local": "8248",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "dentistry",
-  "firstName": "Melanie Ann",
-  "lastName": "Posecion",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Mark David",
-  "lastName": "Arbizo",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Marcos",
-  "lastName": "Bito-onon",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Joann",
-  "lastName": "Castillon",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Fidela",
-  "lastName": "Confesor",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Felix Ruzen",
-  "lastName": "Fandiñola",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Maria Socorro",
-  "lastName": "Felisarta",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Jose Senoi",
-  "lastName": "Gulmatico",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Meda Rose",
-  "lastName": "Luhan",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Ma. Julia",
-  "lastName": "Mabunay",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Ma. Lulu Divinah",
-  "lastName": "Salinas",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "anesthesia",
-  "firstName": "Joselito",
-  "lastName": "Villa",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Rhoda Mae",
-  "lastName": "Abdallah",
-  "room": "SPICE 208",
-  "schedule": "M&F 12nn-3pm T|TH|S Plaza Libertad 10-1pm",
-  "local": "8208",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Rv Celeste",
-  "lastName": "Abellon",
-  "room": "SPICE 239",
-  "schedule": "M|W|F 2-4pm on call",
-  "local": "8239",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Ruth Jink",
-  "lastName": "Aposaga",
-  "room": "PLCC 303",
-  "schedule": "M|T|W|TH|F|S 9-4pm",
-  "local": "7303",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Florelie",
-  "lastName": "Carreon-Gamarcha",
-  "room": "SPICE 238",
-  "schedule": "M|T|W|TH|F|S 9-3pm",
-  "local": "8238",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Rey",
-  "lastName": "Castillo",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Yvonne",
-  "lastName": "Concha",
-  "room": "SPICE 241",
-  "schedule": "M|T|W|TH|F|S 10-3pm",
-  "local": "8240",
-  "phone": "3379992",
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Ma. Rheza",
-  "lastName": "Delfin",
-  "room": "PLCC 305",
-  "schedule": "M|T|W|TH|F 12-3pm Sat. by appointment",
-  "local": "7305",
-  "phone": "3383278",
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Maureen",
-  "lastName": "Fortuna",
-  "room": "PLCC 311",
-  "schedule": "T|TH|S 1-4pm",
-  "local": "7311",
-  "phone": "3377829",
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Geraldine",
-  "lastName": "Gubatina",
-  "room": "SPICE 204",
-  "schedule": "M|T|W|TH|F 10-3pm S 9-2pm",
-  "local": "8204",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Catherine",
-  "lastName": "Lapastora",
-  "room": "SPICE 246",
-  "schedule": "M|T|W|TH|F|Sat 9 - 5pm",
-  "local": "8246",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Gay Margaret",
-  "lastName": "Lavalle",
-  "room": "SPICE 221",
-  "schedule": "M|T|W|TH|F 10-4pm S 9-12nn",
-  "local": "8221",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Elsie",
-  "lastName": "Locsin",
-  "room": "PLCC 207",
-  "schedule": "M|T|TH|F 3-5pm S 9-1pm",
-  "local": "6207",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Cecilia",
-  "lastName": "Maclang",
-  "room": "SPICE 243",
-  "schedule": "M|T|W|TH|F| by appointment S 9-12nn",
-  "local": null,
-  "phone": "3331248",
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Pedro",
-  "lastName": "Manzala",
-  "room": "SPICE 250",
-  "schedule": "M|T|TH|F|S 10-1pm",
-  "local": "8250",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Concepcion",
-  "lastName": "Salcedo",
-  "room": "SPICE 237",
-  "schedule": "F 8-10am",
-  "local": "8237",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Venus",
-  "lastName": "Toledo",
-  "room": "SPICE 234",
-  "schedule": "T&W 1-4pm Fri by appointment",
-  "local": "3376072",
-  "phone": "09993698849",
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Concepcion",
-  "lastName": "Zapanta",
-  "room": "SPICE 232",
-  "schedule": "M|T|W|TH|F|S 3-5pm",
-  "local": "8232",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Magna Carla",
-  "lastName": "Jacobo",
-  "room": "227",
-  "schedule": "T|TH|F|S by appointment",
-  "local": "2127",
-  "phone": "09171484887",
-  "specialty": null
- },
- {
-  "department": "obstetrics-gynecology",
-  "firstName": "Daisy",
-  "lastName": "Solon",
-  "room": "230",
-  "schedule": "M|T|W|TH|F|S 9am - 5pm",
-  "local": "8231",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Jubal",
-  "lastName": "Abellar",
-  "room": "SPICE 210",
-  "schedule": "M|W 11:30-4:30 S 11-2:30pm",
-  "local": "8210",
-  "phone": "3379454",
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Lynette",
-  "lastName": "Alcala",
-  "room": "SPICE 207",
-  "schedule": "T|TH 11-2pm S 10-3pm Miagao M |W|F",
-  "local": "8207",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Eden",
-  "lastName": "Andrada",
-  "room": "SPICE 250",
-  "schedule": "M|T|TH|F|S 10-12pm Except Wednesday",
-  "local": "8250",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Theda",
-  "lastName": "Aungon-Genodia",
-  "room": "PLCC 205",
-  "schedule": "M|T|W|TH|F|S 2-4pm",
-  "local": "6205",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Hazel",
-  "lastName": "Brillantes-Villareal",
-  "room": "SPICE 209",
-  "schedule": "M|T|W|F 10-2pm Except Thursday & Wednesday",
-  "local": "8209",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Ma. Donna",
-  "lastName": "Briones-Jordan",
-  "room": "PLCC 310",
-  "schedule": "M|T|W|TH|F|S 2-5pm",
-  "local": "7310",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Joselito",
-  "lastName": "Caso",
-  "room": "SPICE 250",
-  "schedule": "M|T|W|TH|F|S 2-4pm",
-  "local": "8250",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Josie",
-  "lastName": "Castillo-Causing",
-  "room": "SPICE 217",
-  "schedule": "M|F 9-1pm",
-  "local": "8217",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Jerusha",
-  "lastName": "Comuelo",
-  "room": "SPICE 208",
-  "schedule": "T|TH 2-4 S 12-3",
-  "local": "8208",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Rossinni",
-  "lastName": "Debuque",
-  "room": "PLCC 307",
-  "schedule": "M-S 2-4pm except T|TH · Tel: 3383278",
-  "local": "7307",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Julie Ann",
-  "lastName": "De la Cruz",
-  "room": "PLCC 305",
-  "schedule": "M|W|F|S 1-4pm",
-  "local": "7305",
-  "phone": "3383278",
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Emee Marie",
-  "lastName": "Evangelista",
-  "room": "SPICE 255",
-  "schedule": "M|T|W|TH|F by appointment",
-  "local": "6225",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Rhea",
-  "lastName": "Franco",
-  "room": "SPICE 212",
-  "schedule": "M-F 11am-2pm, S 10am-12nn · Tel: 09095117751",
-  "local": "8212",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Margaret",
-  "lastName": "Galilea",
-  "room": "SPICE 233",
-  "schedule": "M|W|F by appointment",
-  "local": "8233",
-  "phone": "3931812",
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Rosemarie",
-  "lastName": "Ganzon",
-  "room": "SPICE 237",
-  "schedule": "M|T|W||TH|F 12:30-3pm by appointment",
-  "local": "8237",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Ma. Hortencia",
-  "lastName": "Gardose",
-  "room": "SPICE 213",
-  "schedule": "M|W|F 1-3pm",
-  "local": "8213",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Eda Marie",
-  "lastName": "Hubo-Amoyot",
-  "room": "SPICE 233",
-  "schedule": "T|TH|S 2PM-5pm",
-  "local": "8233",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Judith",
-  "lastName": "Inocencio",
-  "room": "SPICE 246",
-  "schedule": "M| T|W|TH 9am-2pm F 9-5pm",
-  "local": "8246",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Anna Mae",
-  "lastName": "Jarder",
-  "room": "PLCC 201",
-  "schedule": "M|W|F by appointment",
-  "local": "6201",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Teresa",
-  "lastName": "Martirez",
-  "room": "PLCC 311",
-  "schedule": "M|W|F|S 12nn onwards T 12nn-3pm T|TH 11-2pm",
-  "local": "7311",
-  "phone": "3377829",
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Demetrio",
-  "lastName": "Patrimonio",
-  "room": "PLCC 304",
-  "schedule": "M|T|W|TH|F|S 12nn-5pm",
-  "local": "7304",
-  "phone": "3382733",
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Cresanie",
-  "lastName": "Puig-Reyes",
-  "room": "SPICE 216",
-  "schedule": "M|T|TH|F 2-4pm",
-  "local": null,
-  "phone": "3377289",
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Estrelita",
-  "lastName": "Rey",
-  "room": "SPICE 250",
-  "schedule": "M|T|W|TH|F 2-5pm",
-  "local": "8250",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Euniel",
-  "lastName": "Solinap",
-  "room": "SPICE 245",
-  "schedule": "M|T|W|TH|S 10-2pm",
-  "local": "8245",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Josephine",
-  "lastName": "Sontillano",
-  "room": "PLCC 303",
-  "schedule": "T|TH|S 2-4pm",
-  "local": "7303",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Ma. Christina",
-  "lastName": "Woo",
-  "room": null,
-  "schedule": "ROOOM: 301 · M|S 10am -12nn",
-  "local": "7301",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "James",
-  "lastName": "Woo",
-  "room": "PLCC 301",
-  "schedule": "M|T|W|TH|F|S 10am-12nn",
-  "local": "7301",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Cynthia",
-  "lastName": "Ybiernas",
-  "room": "PLCC 312",
-  "schedule": "M 2-4pm T|F 10-12nn W 10-12nn/2-4pm F 2pm-4pm",
-  "local": "7312",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Ma. Shelah",
-  "lastName": "Salaya-Ruffert",
-  "room": "233",
-  "schedule": "M|T|TH|F 4pm - 8pm W 3pm -6pm",
-  "local": "8233",
-  "phone": "3931812",
-  "specialty": null
- },
- {
-  "department": "pediatrics",
-  "firstName": "Suzette",
-  "lastName": "Belo",
-  "room": "SPICE 246",
-  "schedule": "By appointment",
-  "local": "8246",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "ophthalmology",
-  "firstName": "Emiliano",
-  "lastName": "Bernardo",
-  "room": "SPICE 211",
-  "schedule": "M 10-12nn & 2pm-4pm T|W|TH|F|S 10-2pm by appointment",
-  "local": "8211",
-  "phone": "09228423475",
-  "specialty": null
- },
- {
-  "department": "ophthalmology",
-  "firstName": "Anne Marie",
-  "lastName": "Caseñas",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "ophthalmology",
-  "firstName": "Nathaniel",
-  "lastName": "Chan",
-  "room": null,
-  "schedule": null,
-  "local": null,
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "ophthalmology",
-  "firstName": "Jeremy",
-  "lastName": "Saquian",
-  "room": "PLCC 202",
-  "schedule": "M|T|W|TH|F 10-4pm",
-  "local": "6209",
-  "phone": "3370866",
-  "specialty": null
- },
- {
-  "department": "ent-hns",
-  "firstName": "Ma. Candie",
-  "lastName": "Bascus",
-  "room": "SPICE 215",
-  "schedule": "W|F|S 10am-2pm T 2:30-4pm",
-  "local": "8245",
-  "phone": "09177627760",
-  "specialty": null
- },
- {
-  "department": "ent-hns",
-  "firstName": "Rodolfo Dela",
-  "lastName": "Cruz",
-  "room": "SPICE 247",
-  "schedule": "M|T|F|S 8:30-3:30pm",
-  "local": null,
-  "phone": "3371069",
-  "specialty": null
- },
- {
-  "department": "ent-hns",
-  "firstName": "Jenelyn",
-  "lastName": "Magno",
-  "room": "SPICE 247",
-  "schedule": "W|TH 12-2:30pm",
-  "local": null,
-  "phone": "3371069",
-  "specialty": null
- },
- {
-  "department": "ent-hns",
-  "firstName": "Yul",
-  "lastName": "Saquian",
-  "room": "SPICE 228",
-  "schedule": "M|W|F 9-4pm T|TH|S 11-4pm",
-  "local": "8228",
-  "phone": "3962082 / 09175470457",
-  "specialty": null
- },
- {
-  "department": "ent-hns",
-  "firstName": "Melvin",
-  "lastName": "Sirilan",
-  "room": "SPICE 222",
-  "schedule": "M|T|W|F|S 1pm-4pm",
-  "local": "8222",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "ent-hns",
-  "firstName": "Christien Marie",
-  "lastName": "Nufable-Turmon",
-  "room": "226",
-  "schedule": "M 10 am - 4 pm T|TH 1 pm-4 pm, F 10 am-2 pm, S 1 pm-3 pm",
-  "local": "8226",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Remo",
-  "lastName": "Benliro",
-  "room": "SPICE 226",
-  "schedule": "By appointment",
-  "local": "8226",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Noel",
-  "lastName": "Bernasol",
-  "room": "PLCC 310",
-  "schedule": "M|T|W|TH|F|S 10-1pm",
-  "local": "7310",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Delma",
-  "lastName": "Diaz-Mombay",
-  "room": "SPICE 232",
-  "schedule": "M|T|W|TH|F 10-3pm S 10-12nn",
-  "local": "8232",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Melbert",
-  "lastName": "Divinagracia",
-  "room": "PLCC 302",
-  "schedule": "M|T|W|TH|F|S 12:30 onwards",
-  "local": null,
-  "phone": "3375358",
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Henry",
-  "lastName": "Gonzales",
-  "room": "SPICE 201",
-  "schedule": "M|T|W|TH|F 9-1pm",
-  "local": "8201",
-  "phone": "3371275",
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Nemia",
-  "lastName": "Lizada",
-  "room": "PLCC 310",
-  "schedule": "M|T|W|TH|F 2-5pm S by appointment",
-  "local": "7310",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Reina Paz",
-  "lastName": "Alipao-Gilo",
-  "room": "SPICE 226",
-  "schedule": "M|W|F 2 pm - 4 pm",
-  "local": "8226",
-  "phone": null,
-  "specialty": null
- },
- {
-  "department": "family-medicine",
-  "firstName": "Rhodieleen",
-  "lastName": "Dela Cruz",
-  "room": "SPICE 247",
-  "schedule": "M|T|F|S 8:30am - 3:30pm",
-  "local": null,
-  "phone": "3371069",
-  "specialty": null
- }
+  {
+    "department": "dentistry",
+    "firstName": "Teresa",
+    "lastName": "Enojo",
+    "room": "SP2 248",
+    "schedule": "Mon-Wed-Fri 10am-12nn 1pm-3pm by appt.",
+    "local": "8248",
+    "phone": "3370023 / 09453447735",
+    "specialty": null
+  },
+  {
+    "department": "dentistry",
+    "firstName": "Ma. Camille Angela Macavinta",
+    "lastName": "Palmares",
+    "room": "SM 20",
+    "schedule": "Tue 10am-5pm Sat 11am-5pm",
+    "local": null,
+    "phone": "3302488 / 09190090692 / FB: MACAVINTA DENTAL CLINIC",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Joere",
+    "lastName": "Andraje",
+    "room": "SP3 305",
+    "schedule": "Thu-Fri 11am-5pm Sat 1pm-5pm",
+    "local": "6334",
+    "phone": "09365531322",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Jeric",
+    "lastName": "Arbizo",
+    "room": "SP2 258",
+    "schedule": "Mon 10am-1pm Wed-Thu 1pm-3pm",
+    "local": "6208",
+    "phone": "09693052733",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Arik Paolo Isaiah",
+    "lastName": "Dela Cruz",
+    "room": null,
+    "schedule": "Tue & Thu 9am-1pm",
+    "local": null,
+    "phone": null,
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Rodolfo / Rhodieleen",
+    "lastName": "Dela Cruz",
+    "room": "SP2 247",
+    "schedule": "Mon-Sat except Wed & Thu 11am-03:30pm by appointment",
+    "local": null,
+    "phone": "3371069 / 09228410534",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Pamela Nicole",
+    "lastName": "Ladrido",
+    "room": "M 25",
+    "schedule": "Tues by appt. Thurs 2pm-4pm",
+    "local": null,
+    "phone": "09638009375",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Alfebey",
+    "lastName": "Monarca-Abonado",
+    "room": "SP2 258",
+    "schedule": "Mon 1pm-4pm Tue-Fri 10am-4pm Sat 10am-1pm",
+    "local": "6208",
+    "phone": "09693052733",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Christien Marie Tormon",
+    "lastName": "Nufable",
+    "room": "SP2 226",
+    "schedule": "Mon-Tue-Fri 11am-2pm",
+    "local": "8226",
+    "phone": "09190915992 / 09178906931",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Thea Belle",
+    "lastName": "Pacete",
+    "room": "SP2 305",
+    "schedule": "Mon-Wed 10am-3pm",
+    "local": "6334",
+    "phone": "09501766816 / 09811571902",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Abegail",
+    "lastName": "Salcedo",
+    "room": "SP2 258",
+    "schedule": "Tue & Thu 2pm to 4pm Fri 1pm-3pm",
+    "local": "6208",
+    "phone": "09693052733",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Florence Yul",
+    "lastName": "Saquian",
+    "room": "SP2 228",
+    "schedule": "Mon-Sat 3pm onwards by appointment",
+    "local": "8228",
+    "phone": "09088959692 / 09175470457 / 09365531322",
+    "specialty": null
+  },
+  {
+    "department": "ent-hns",
+    "firstName": "Herman Melvin",
+    "lastName": "Sirilan",
+    "room": "SP2 222",
+    "schedule": "Mon-Wed-Fri 9am-2pm Tue 1pm-3pm",
+    "local": "8222",
+    "phone": "3363517 / 09664199030",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Remo Jr.",
+    "lastName": "Benliro",
+    "room": "SP2 226",
+    "schedule": "Mon-Wed-Fri 1pm-5pm by appointment",
+    "local": "8226",
+    "phone": "09426408585",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Jesus Eugenio",
+    "lastName": "De Jesus",
+    "room": "C RM 2",
+    "schedule": "By appointment",
+    "local": null,
+    "phone": "09109239503 / 09177562684",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Delma Mombay",
+    "lastName": "Diaz",
+    "room": "SP2 232",
+    "schedule": "Mon-Wed-Fri 12nn-4pm (close holiday)",
+    "local": "8232",
+    "phone": "09487761996",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Melbert",
+    "lastName": "Divinagracia",
+    "room": "SM 2",
+    "schedule": "Mon-Fri 12nn-1pm by appointment (close holiday); Mon-Fri 1:30pm-4pm by appointment (close holiday)",
+    "local": null,
+    "phone": "3963405 / 3375358 / 09473225916 / 09054184085",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Mary Joan",
+    "lastName": "Duremdes",
+    "room": "RM 2",
+    "schedule": "*",
+    "local": null,
+    "phone": "*",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Henry",
+    "lastName": "Gonzales",
+    "room": "SP2 201",
+    "schedule": "Mon-Fri 9am-11am (text/call before coming)",
+    "local": "8201",
+    "phone": "3371275 / 09174759250",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Joseph Ryan",
+    "lastName": "Gonzales",
+    "room": null,
+    "schedule": null,
+    "local": null,
+    "phone": null,
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Enrique III",
+    "lastName": "Hipolito",
+    "room": "S 4TH FLR",
+    "schedule": "Mon-Fri 8am-9:30am; Medicus Lapaz: Mon-Friday 1pm-2:30pm",
+    "local": "6359",
+    "phone": null,
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Ma. Nemia",
+    "lastName": "Lizada",
+    "room": "SM 8",
+    "schedule": "Mon-Fri 3pm-5pm by appointment",
+    "local": "7310",
+    "phone": "09093411311",
+    "specialty": null
+  },
+  {
+    "department": "family-medicine",
+    "firstName": "Joan",
+    "lastName": "Rafols",
+    "room": "C RM2",
+    "schedule": "Mon-Wed-Fri 11:00am-1:00pm",
+    "local": null,
+    "phone": "09760151927",
+    "specialty": null
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Joefil",
+    "lastName": "Acosta",
+    "room": "SP2 252",
+    "schedule": "Mon-Tue-Thu-Fri 9am-1pm 2pm-3pm Wed & Sat 9am-1pm",
+    "local": "2054",
+    "phone": "3381814",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Joel",
+    "lastName": "Advincula",
+    "room": "SM 19",
+    "schedule": "Mon, Fri, Sat 2pm-6pm by appointment",
+    "local": "7309",
+    "phone": "5003159 / 09777902674",
+    "specialty": "Neurology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Leah",
+    "lastName": "Agreda-Cadete",
+    "room": "SP2 242",
+    "schedule": "Mon-Tue-Wed-Fri 11am-1pm",
+    "local": "8242",
+    "phone": "09234391182",
+    "specialty": "Hematology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Jennifer",
+    "lastName": "Alabado",
+    "room": "SP2 218",
+    "schedule": "Mon & Fri 10am-12nn Wed 1pm-3pm",
+    "local": "8218",
+    "phone": "09517373864 / 09517373864",
+    "specialty": "Hematology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Dioly Ann Pedregosa",
+    "lastName": "Arnaiz",
+    "room": "CC RM 3",
+    "schedule": "Mon-Wed-Fri 10am-2pm by appointment",
+    "local": "6370",
+    "phone": "09465594795",
+    "specialty": "Oncology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Ramel Ramon",
+    "lastName": "Balbastro",
+    "room": "SM 3",
+    "schedule": "Tue-Thu-Sat 10am-2pm",
+    "local": "7308",
+    "phone": "09077686476",
+    "specialty": "Gastroenterology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Yul",
+    "lastName": "Balleza",
+    "room": "SP2 235",
+    "schedule": "Mon-Sat 9am-11am",
+    "local": null,
+    "phone": "3354919 / 39330771 / 09212692798",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Arriane Mae",
+    "lastName": "Basco",
+    "room": "SP2 216",
+    "schedule": "Mon 10am-12nn Tue-Wed-Fri 2pm-4pm",
+    "local": "8216",
+    "phone": "09165214605",
+    "specialty": "Nephrology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Jamil Jan",
+    "lastName": "Baterna",
+    "room": "SP2 215",
+    "schedule": "Tue-Thu 1:30-5pm Sat 9:am-11:30am",
+    "local": "8215",
+    "phone": "09624463647",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Kristine Claire Ledesma",
+    "lastName": "Baterna",
+    "room": "SP2 258",
+    "schedule": "Tue 1pm onwards",
+    "local": "6208",
+    "phone": "09693052733",
+    "specialty": "Infectious Disease"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Janet",
+    "lastName": "Beltran",
+    "room": "SP2 220",
+    "schedule": "Mon-Tues-Wed-Fri 10am-2pm",
+    "local": "8220",
+    "phone": "09985637827",
+    "specialty": "Neurology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Jennifer Grendel",
+    "lastName": "Bernardo",
+    "room": "SP2 224",
+    "schedule": "Mon-Thu-Fri 1:30pm-3pm Tue-Wed- Sat 9:30am-12nn",
+    "local": "8224",
+    "phone": "09155042481",
+    "specialty": "Dermatology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Florence",
+    "lastName": "Blanco",
+    "room": "SP2 251",
+    "schedule": "Tue 1pm-2pm Wed & Fri 10am-11am",
+    "local": "8251",
+    "phone": "09271351808",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Michael",
+    "lastName": "Bonilla",
+    "room": "SP2 234",
+    "schedule": "Mon-Wed-Fri 11am-2pm",
+    "local": "8234",
+    "phone": "09993698849",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Cornelio II",
+    "lastName": "Borreros",
+    "room": "SP3 304",
+    "schedule": "Mon-Wed-Fri 1pm onwards",
+    "local": "8302",
+    "phone": "09177003075",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Irma Melissa",
+    "lastName": "Borreros",
+    "room": "SP2 257",
+    "schedule": "Mon-Fri 2pm-4pm by appointment",
+    "local": "8256",
+    "phone": "09459611546 / 09915907764",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Dexter Dale",
+    "lastName": "Briones",
+    "room": "SP3 306",
+    "schedule": "Mon-Wed-Fri 10am-4pm",
+    "local": null,
+    "phone": "3275102 / 09209645548 / 09178008202",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Rosauro",
+    "lastName": "Cabana",
+    "room": "SP2 214",
+    "schedule": "Mon 12nn-4pm Wed 1pm-5pm Fri 12nn-4pm",
+    "local": "8214",
+    "phone": "3202522 / 09387772829 / 09673092279",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Catherine",
+    "lastName": "Cataluña-Paredes",
+    "room": "SM 13",
+    "schedule": "Mon-Wed 1pm-5pm Tue-Thu 9am-11am by appt",
+    "local": "8223",
+    "phone": "09568177210 / 09695477740",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Cecilia",
+    "lastName": "Cercado",
+    "room": "SP2 202",
+    "schedule": "Mon-Sat 08:30am-12nn by appointment",
+    "local": "8202",
+    "phone": "09460521912",
+    "specialty": null
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Kaya Sharley",
+    "lastName": "Cercado-Calzado",
+    "room": "SP2 202",
+    "schedule": "Mon 10am-2pm Wed & Fri by appointment",
+    "local": "8202",
+    "phone": "09628093949",
+    "specialty": "Oncology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Fel Angelie",
+    "lastName": "Colon",
+    "room": "SP2 207",
+    "schedule": "Mon 3pm-4pm",
+    "local": "8207",
+    "phone": "09515970171",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Ethel",
+    "lastName": "Cordero",
+    "room": "SP2 237",
+    "schedule": "Tue & Thu 12nn-3pm by appointment",
+    "local": "8237",
+    "phone": "09293222279",
+    "specialty": "Nephrology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Ma. Sylvia Theresa",
+    "lastName": "De Pili",
+    "room": "SP2 206",
+    "schedule": "Mon-Fri 11am-4pm",
+    "local": "8206",
+    "phone": "09497737782 / 09155016609",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Ellamae",
+    "lastName": "Divinagracia",
+    "room": "SM 2",
+    "schedule": "Mon-Fri 12nn-1pm",
+    "local": null,
+    "phone": "3963405 / 3375358 / 09473225916 / 09946098109 / 09054184085 / 09190998174",
+    "specialty": "Infectious Disease"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Roger",
+    "lastName": "Dulos",
+    "room": "SP3 303",
+    "schedule": "Tue-Thu-Sat 10am-12:30pm",
+    "local": "6340",
+    "phone": "09096317678",
+    "specialty": "Rheumatology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Dennis",
+    "lastName": "Dumaplin",
+    "room": "SM 15",
+    "schedule": "Tue-Thu-Sat 12nn-5pm",
+    "local": "7301",
+    "phone": null,
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Danilo",
+    "lastName": "Encarnacion",
+    "room": "SM 21",
+    "schedule": "Mon-Sat 9am-12nn",
+    "local": "2068",
+    "phone": "3361555 / 09209778212",
+    "specialty": "Gastroenterology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Rogelio Jr.",
+    "lastName": "Engada",
+    "room": "SP2 215",
+    "schedule": "Mon-Wed-Thu 10am-1pm",
+    "local": "8215",
+    "phone": "09196108132",
+    "specialty": "Gastroenterology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Marcelino",
+    "lastName": "Felisarta",
+    "room": "SP2 239",
+    "schedule": "Mon-Fri 3pm-5pm by appointment",
+    "local": "8239",
+    "phone": "09338515344",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Malbar",
+    "lastName": "Ferrer",
+    "room": "SP3 301",
+    "schedule": "Mon-Fri except Wed 10am-2pm by appointment",
+    "local": "8310",
+    "phone": "3366536",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Mark Leonard",
+    "lastName": "Flores",
+    "room": "SM 26",
+    "schedule": "Mon-Sat 10am-4pm",
+    "local": "6205",
+    "phone": "3398112 / 09950310681",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Ma. Cecilia Divinagracia",
+    "lastName": "Florete",
+    "room": "SP2 239",
+    "schedule": "Mon-Tue-Fri 9am-12nn by appointment",
+    "local": "8239",
+    "phone": "09338515344",
+    "specialty": "Gastroenterology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Delma",
+    "lastName": "Franco",
+    "room": "SM 24",
+    "schedule": "Tue & Fri 9am-12nn Wed-Thu-Sat 9am-1pm",
+    "local": "7307",
+    "phone": "09102060472 / 09671795592",
+    "specialty": "Neurology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Lysa Camille",
+    "lastName": "Gadong-Galura",
+    "room": "SP2 251",
+    "schedule": "Tue-Thu-Fri 2pm-4pm",
+    "local": "8251",
+    "phone": "09271351808",
+    "specialty": "Endocrinology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Francis Cyril",
+    "lastName": "Ganzon",
+    "room": "SP2 245",
+    "schedule": "Mon-Wed-Fri by appointment",
+    "local": "8245",
+    "phone": "09171585346",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Kathleen Ann",
+    "lastName": "Gaw Te",
+    "room": "SP2 256",
+    "schedule": "Mon-Fri by appointment Sat 9am-12nn",
+    "local": "8256",
+    "phone": "09165782385",
+    "specialty": "Nephrology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Jovie",
+    "lastName": "Gerona-Salcedo",
+    "room": null,
+    "schedule": "Mon-Sat 10am-3pm",
+    "local": "6340",
+    "phone": "09309375783",
+    "specialty": "Rheumatology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Sheilla Mae Checa",
+    "lastName": "Jalandra",
+    "room": "SP2 216",
+    "schedule": "Mon-Tue-Wed-Fri 10am-1pm Sat by appointment",
+    "local": "8216",
+    "phone": "09482019042",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Neza May",
+    "lastName": "Kho Yute",
+    "room": "SP2 232",
+    "schedule": "Mon-Sat except Fri 9am-11am",
+    "local": "8232",
+    "phone": "09487761996",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Raymond",
+    "lastName": "Lee",
+    "room": "SM 22",
+    "schedule": "Tue 11am-3pm Thu 11am-3pm Sat 10am-12nn",
+    "local": null,
+    "phone": "09289928430 / 09542714501",
+    "specialty": null
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Maria Zeny Lauron",
+    "lastName": "Loquiano",
+    "room": "CC 4th Flr.",
+    "schedule": "By appointment",
+    "local": "8239",
+    "phone": "3372744 / 09338515344",
+    "specialty": "Nuclear Medicine"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Vincent",
+    "lastName": "Luceño",
+    "room": "SM 13",
+    "schedule": "Mon-Wed-Fri 9:30am-1pm",
+    "local": "8223",
+    "phone": "09568177210",
+    "specialty": "Rheumatology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Genevieve Sia",
+    "lastName": "Majewski",
+    "room": "SP2 230",
+    "schedule": "Mon-Fri 3pm-5pm by appt. except Wed",
+    "local": "8230",
+    "phone": "09124571570 / 09622842699",
+    "specialty": "Endocrinology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Lenny",
+    "lastName": "Malaki",
+    "room": "SP2 225",
+    "schedule": "Mon-Fri except Thu 10am-1:30pm Sat 10am-1pm",
+    "local": "8225",
+    "phone": "09098872397",
+    "specialty": "Diabetology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Marie Hazel Ivy",
+    "lastName": "Mueño",
+    "room": "SP2 230",
+    "schedule": "Mon-Wed 11am-2pm Fri 12nn-2pm",
+    "local": "8230",
+    "phone": "3934480 / 09124571570",
+    "specialty": "Nephrology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Annia Rae",
+    "lastName": "Nicolasora",
+    "room": "SP2 251",
+    "schedule": "Mon-Thu by appointment",
+    "local": "8251",
+    "phone": "09271351808",
+    "specialty": "Nephrology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Halberd",
+    "lastName": "Obligacion",
+    "room": "SM 14",
+    "schedule": "Mon-Wed-Fri 11am-3pm",
+    "local": "2214",
+    "phone": "09667188431",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Dolores",
+    "lastName": "Octaviano",
+    "room": "SM 5",
+    "schedule": "Mon-Sat 11am-2pm",
+    "local": "6203",
+    "phone": "09691221873",
+    "specialty": "Endocrinology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Hazel Yadao",
+    "lastName": "Oro",
+    "room": "SP2 205",
+    "schedule": "Tue-Thu 12nn-2pm Sat 10am-3pm by appt. strictly no walk-in",
+    "local": "2025",
+    "phone": "09174167282 / 09512105850",
+    "specialty": "Nephrology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Jonas",
+    "lastName": "Ortigas",
+    "room": null,
+    "schedule": "Tue-Thu-Sat 8am-12nn",
+    "local": null,
+    "phone": null,
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Mary Ann Jean",
+    "lastName": "Patrimonio",
+    "room": "SP2 229",
+    "schedule": "Mon-Sat 9am-3pm",
+    "local": "8229",
+    "phone": "3375912",
+    "specialty": "Allergology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Christopher John",
+    "lastName": "Po",
+    "room": "CC Ground Flr",
+    "schedule": "Mon-Sat 9am-3pm",
+    "local": null,
+    "phone": "09323441904",
+    "specialty": "Oncology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Amee Lourdes Ravena",
+    "lastName": "Ponje",
+    "room": "SP2 244",
+    "schedule": "Mon-Wed-Fri 1pm-3pm",
+    "local": "8244",
+    "phone": "09266885965",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Katrina Louise",
+    "lastName": "Prudente",
+    "room": "M 8",
+    "schedule": "Mon-Wed-Fri 9am-12nn",
+    "local": "7310",
+    "phone": "09093411311",
+    "specialty": "Nephrology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "J Robert Isiah",
+    "lastName": "Ramos",
+    "room": "SP2 234",
+    "schedule": "Tue-Thu-Sat 10am-2pm by appointment",
+    "local": "8234",
+    "phone": "09695735538",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Ana Lourdes",
+    "lastName": "Regalado",
+    "room": "SP2 226",
+    "schedule": "Tue & Thu 10am-4pm Fri 11am-1:30pm",
+    "local": "8226",
+    "phone": "09426408585",
+    "specialty": "Dermatology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Jane Frances",
+    "lastName": "Retiro",
+    "room": "SM 3",
+    "schedule": "Mon-Wed-Fri 11am-3pm",
+    "local": "7308",
+    "phone": "3376732",
+    "specialty": "Hematology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Janice Joan",
+    "lastName": "Santiago",
+    "room": "SP2 259",
+    "schedule": "Mon-Wed-Fri 1pm-5pm accepts walk-in Sat 10am-12nn",
+    "local": "2039",
+    "phone": "09450930281 / 09124750277",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Lorelei Pedronio",
+    "lastName": "Sirilan",
+    "room": "SP2 222",
+    "schedule": "Mon-Fri except Thu 12nn-4pm",
+    "local": "8222",
+    "phone": "3363517 / 09664199030",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Shiela May",
+    "lastName": "Sonza",
+    "room": "SP2 245",
+    "schedule": "Mon-Fri 1pm-3pm",
+    "local": "8245",
+    "phone": "09177627760",
+    "specialty": "Gastroenterology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Miguel",
+    "lastName": "Sotomil",
+    "room": "SP2 234",
+    "schedule": "Mon-Wed-Fri 11am-2pm",
+    "local": "8234",
+    "phone": "09993698849",
+    "specialty": "Gastroenterology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Ty Alekzander",
+    "lastName": "Talamera",
+    "room": "SP2 257",
+    "schedule": "Mon-Wed-Fri 10am-2pm",
+    "local": "2127",
+    "phone": "09459611546",
+    "specialty": "Neurology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Louie",
+    "lastName": "Tirador",
+    "room": "SM 28",
+    "schedule": "Mon-Thu-Fri 10am-2pm",
+    "local": "6206",
+    "phone": "3376441 / 09663942986",
+    "specialty": "Cardiology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Rodrose Guzman",
+    "lastName": "Trivilegio",
+    "room": "SM 1",
+    "schedule": "Mon-Fri 9am-4pm Sat 9am-2pm",
+    "local": "6201",
+    "phone": "3376591 / 09453366901",
+    "specialty": "Pulmonology"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Anna Marie",
+    "lastName": "Velasco",
+    "room": "SP2 237",
+    "schedule": "Mon-Fri except Thu by appointment",
+    "local": "8237",
+    "phone": "09275620004 / 09627103096 / 09293222279",
+    "specialty": "Infectious Disease"
+  },
+  {
+    "department": "internal-medicine",
+    "firstName": "Mary Grace",
+    "lastName": "Villa-Toledo",
+    "room": "SP2 242",
+    "schedule": "Tues-Thurs-Sat by appointment",
+    "local": "8242",
+    "phone": "09234391182",
+    "specialty": "Allergology"
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Rhoda Mae",
+    "lastName": "Abdallah",
+    "room": "SP2 208",
+    "schedule": "Mon-Fri 12nn-3pm",
+    "local": "8208",
+    "phone": "09076078246 / 09274002491",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Rv Celeste Bernal",
+    "lastName": "Abellon",
+    "room": "SP2 239",
+    "schedule": "By appointment",
+    "local": "8239",
+    "phone": "09338515344",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Ruth Jink",
+    "lastName": "Aposaga",
+    "room": "SM 10",
+    "schedule": "Mon-Fri except Wed 9am-4pm Sat 11am-4pm",
+    "local": "7303",
+    "phone": "3302625 / 09662665195 / 09462275167",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Kym",
+    "lastName": "Bacus-Gellangarin",
+    "room": "SP2 218",
+    "schedule": "Mon 1pm-3pm Wed & Sat 10am-12nn",
+    "local": "8218",
+    "phone": "09517373864 / FB: KymOBGYN",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Lorraine",
+    "lastName": "Billones",
+    "room": "SP2 250",
+    "schedule": "Mon-Sat 10am-2pm",
+    "local": "8250",
+    "phone": "09104518406",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Florelie",
+    "lastName": "Carreon-Gamarcha",
+    "room": "SP2 238",
+    "schedule": "Mon-Sat 8am-1pm",
+    "local": "8238",
+    "phone": "09054008697 / 09176339229",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Ma. Yvonne Regollo",
+    "lastName": "Concha",
+    "room": "SP2 241",
+    "schedule": "(scan QR Code) Mon-Fri  7am-4pm Sat 9am-3pm by appt.",
+    "local": "8240",
+    "phone": "3379992 / 09276490699 / 09564368493",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Ma. Rhesa",
+    "lastName": "Delfin",
+    "room": "SM 25",
+    "schedule": "Mon-Wed-Fri 1pm-3pm Tue & Sat 9am-12nn",
+    "local": "7305",
+    "phone": "3383278 / 09638009378",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Ma. Maureen",
+    "lastName": "Fortuna",
+    "room": "SM 23",
+    "schedule": "Tue-Thu-Sat 10am-4pm",
+    "local": "7311",
+    "phone": "3377829 / 09639075484",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Maria Geraldine",
+    "lastName": "Gubatina",
+    "room": "SP2 204",
+    "schedule": "Mon-Fri 10am-2pm Sat 9am-2pm",
+    "local": "8204",
+    "phone": "09195811599",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Magna Carla",
+    "lastName": "Jacobo",
+    "room": "SP2 227",
+    "schedule": "By appointment",
+    "local": "8227",
+    "phone": "09454563937 / 09171484887",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Catherine",
+    "lastName": "Lapastora",
+    "room": "SP2 236",
+    "schedule": "Mon-Tue-Thu-Fri 4pm-5:30pm Sat 9am-12nn",
+    "local": "8236",
+    "phone": "09630749301 / 09175252301",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Ronald",
+    "lastName": "Latap",
+    "room": "SP2 230",
+    "schedule": "09171426418/09108660005 11am-2pm Tue & Fri Medicus",
+    "local": "8230",
+    "phone": "3934480 / 3202816",
+    "specialty": "OB-GYN Oncology"
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Gay Margaret",
+    "lastName": "Lavalle",
+    "room": "SP2 221",
+    "schedule": "Mon-Fri 10am-2pm",
+    "local": "8221",
+    "phone": "09561767251",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Elsie Russel",
+    "lastName": "Locsin",
+    "room": "SM 16",
+    "schedule": "Mon-Sat except Thu 11:30am-2pm",
+    "local": "6207",
+    "phone": "09070222203",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Russel Cuttyleen",
+    "lastName": "Locsin-Sansolis",
+    "room": null,
+    "schedule": "Mon-Thu 9am-11am  2pm-5pm Fri 9am–11pm by appt",
+    "local": "6207",
+    "phone": "09070222203 / 09171544677",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Concepcion Lovella",
+    "lastName": "Salcedo",
+    "room": "SP2 237",
+    "schedule": "By appointment",
+    "local": "8237",
+    "phone": "09293222279",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Venus",
+    "lastName": "Toledo",
+    "room": "SP2 234",
+    "schedule": "Tue-Wed-Thu 1pm-4pm",
+    "local": "8234",
+    "phone": "09993698849",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Ma. Arlene",
+    "lastName": "Valaquio",
+    "room": "SP2 234",
+    "schedule": "Tue-Thu-Sat 10am-2pm",
+    "local": "8234",
+    "phone": "09695735583",
+    "specialty": null
+  },
+  {
+    "department": "obstetrics-gynecology",
+    "firstName": "Ma. Concepcion",
+    "lastName": "Zapanta",
+    "room": "SP2 232",
+    "schedule": "Tue-Wed-Thu-Sat 3pm-5pm Mon & Fri by appt.",
+    "local": "8232",
+    "phone": "3000116 / 09228196057",
+    "specialty": null
+  },
+  {
+    "department": "ophthalmology",
+    "firstName": "Emiliano III",
+    "lastName": "Bernardo",
+    "room": "SP2 211",
+    "schedule": "Mon-Tue-Fri 1pm-3pm Tue-Wed-Sat 9:30am-12nn",
+    "local": "8211",
+    "phone": "09228423475 / 09665798765",
+    "specialty": null
+  },
+  {
+    "department": "ophthalmology",
+    "firstName": "Jeremy",
+    "lastName": "Saquian",
+    "room": "SM 17-18",
+    "schedule": "Mon-Fri 10am-4pm by appointment",
+    "local": "6209",
+    "phone": "3370866 / 09072364021",
+    "specialty": null
+  },
+  {
+    "department": "ophthalmology",
+    "firstName": "Lissa Angela Cheng",
+    "lastName": "Suyo",
+    "room": "SP2 260",
+    "schedule": "Mon-Fri 10am-2pm Sat 10am-12nn",
+    "local": "8253",
+    "phone": "09270761472",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Jubal",
+    "lastName": "Abellar",
+    "room": "SP2 210",
+    "schedule": "Wed 12nn-4pm",
+    "local": "8210",
+    "phone": "3379454 / 09617628656",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Lynette",
+    "lastName": "Alcala",
+    "room": "SP2 207",
+    "schedule": "Tue-Thu 12nn-3pm Sat 10am-3pm",
+    "local": "8207",
+    "phone": "09479266889 / 09189368639",
+    "specialty": "Pedia-Nephrology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Carmela Escorpion",
+    "lastName": "Andaleza",
+    "room": "SM 22",
+    "schedule": "Mon-Wed-Fri-Sat 9:30am-2:30pm",
+    "local": null,
+    "phone": "09289928430 / 09542714501 / FB: Andaleza Pediatric Pulmonology Clinic",
+    "specialty": "Pedia-Pulmonology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Eden",
+    "lastName": "Andrada",
+    "room": "SP2 250",
+    "schedule": "Mon-Tue-Fri 10am-12nn",
+    "local": "8250",
+    "phone": "09189080879 / 09109330993",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Hazel",
+    "lastName": "Brillantes-Villareal",
+    "room": "SP2 209",
+    "schedule": "Mon-Wed-Fri 2pm-5pm Tue – Iloilo Metro Hospital",
+    "local": "8209",
+    "phone": "09981804308",
+    "specialty": "Pedia-Neurology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Ma. Donna Divina",
+    "lastName": "Briones-Jordan",
+    "room": "SM 8",
+    "schedule": "Mon-Tue-Fri 1:30pm-5pm",
+    "local": "7310",
+    "phone": "09093411311",
+    "specialty": "Pedia-Pulmonology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Joselito",
+    "lastName": "Caso",
+    "room": "SP2 250",
+    "schedule": "Tue & Sat 2:30pm-4pm by appointment",
+    "local": "8250",
+    "phone": "09985596184",
+    "specialty": "Pedia-Hematology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Josie Grace",
+    "lastName": "Castillo-Causing",
+    "room": "SP2 217",
+    "schedule": "Mon 10am-2pm (Qualimed hosp thurs only)",
+    "local": "8217",
+    "phone": "09165219162",
+    "specialty": "Pedia-Gastroenterology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Jerusha",
+    "lastName": "Comuelo",
+    "room": "SP2 208",
+    "schedule": "Tue & Thu by appointment",
+    "local": "8208",
+    "phone": "09076078246 / 09274002491",
+    "specialty": "Pedia-Neurology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Rossini",
+    "lastName": "Debuque",
+    "room": "SM 24",
+    "schedule": "Mon 9am-12nn Tue by appt.; 4th Sat of the month",
+    "local": "7307",
+    "phone": "09167126641",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Julie Ann Belo",
+    "lastName": "Dela Cruz",
+    "room": "SM 25",
+    "schedule": "Mon-Wed-Fri 9am-11am Sat 1pm-4pm",
+    "local": "7305",
+    "phone": "3383278",
+    "specialty": "Pedia-Infectious Disease"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Emee Marie",
+    "lastName": "Evangelista",
+    "room": "SP2 255",
+    "schedule": "Mon-Fri by appointment",
+    "local": "6225",
+    "phone": "09338606709",
+    "specialty": "Developmental Pediatrics"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Rea",
+    "lastName": "Franco",
+    "room": "SP2 212",
+    "schedule": "Mon-Fri 10am-4pm",
+    "local": "8212",
+    "phone": "09070715489",
+    "specialty": "Pedia-Cardiology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Margaret Jane",
+    "lastName": "Galilea",
+    "room": "SP2 233",
+    "schedule": "Friday 4pm-6pm by appointment",
+    "local": "8233",
+    "phone": "09078038100",
+    "specialty": "Pedia-Endocrinology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Rosemarie",
+    "lastName": "Ganzon",
+    "room": "SP2 237",
+    "schedule": "Mon & Fri 2pm-3pm",
+    "local": "8237",
+    "phone": "09159455378",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Maria Hortencia",
+    "lastName": "Gardose",
+    "room": "SP2 213",
+    "schedule": "Mon-Wed-Fri 10am-2pm",
+    "local": "8213",
+    "phone": "09107065888",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Judith",
+    "lastName": "Inocencio",
+    "room": "SP2 246",
+    "schedule": "Mon-Fri 10am-4pm Sat by appointment",
+    "local": "8246",
+    "phone": "09976782924",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Ma. Teresa",
+    "lastName": "Martirez-Hallegado",
+    "room": "SM 23",
+    "schedule": "Mon-Wed-Fri 2pm-5pm Sat 2pm-5pm by appointment",
+    "local": "7311",
+    "phone": "3377829 / 09368334121",
+    "specialty": "Pedia-Pulmonology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Demetrio Jr.",
+    "lastName": "Patrimonio",
+    "room": "SM 7",
+    "schedule": "Mon-Sat 3pm onwards",
+    "local": "7304",
+    "phone": "3382733 / 09989801205",
+    "specialty": "Pedia-Neonatology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Rex Louie",
+    "lastName": "Prudente",
+    "room": "SM 16",
+    "schedule": "Fri 9am-12nn Sat 1pm-4pm",
+    "local": "6207",
+    "phone": "09070222203",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Ma. Shelah",
+    "lastName": "Salaya-Ruffert",
+    "room": "SP2 233",
+    "schedule": "Mon-Wed-Fri 4pm-6pm",
+    "local": "8233",
+    "phone": "09078038100",
+    "specialty": "Pedia-Cardiology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Euniel",
+    "lastName": "Solinap",
+    "room": "SP2 245",
+    "schedule": "Mon-Sat 10am-2pm",
+    "local": "8245",
+    "phone": "09177627760",
+    "specialty": null
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "James",
+    "lastName": "Woo",
+    "room": "SM 15",
+    "schedule": "Mon-Wed-Fri 12nn-4pm",
+    "local": "7301",
+    "phone": "09072038580",
+    "specialty": "Pedia-Nephrology"
+  },
+  {
+    "department": "pediatrics",
+    "firstName": "Cynthia Purificacion",
+    "lastName": "Ybiernas-Gallinero",
+    "room": "SM 24",
+    "schedule": "Tue & Fri 1:30pm-4pm",
+    "local": "7307",
+    "phone": "09383835418",
+    "specialty": "Pedia-Allergology"
+  },
+  {
+    "department": "psychiatry",
+    "firstName": "Victor Jr.",
+    "lastName": "Amantillo",
+    "room": "SP2 249",
+    "schedule": "By appointment",
+    "local": "8249",
+    "phone": "09278146188",
+    "specialty": null
+  },
+  {
+    "department": "psychiatry",
+    "firstName": "Diosdado Jr.",
+    "lastName": "Amargo",
+    "room": "SP2 238",
+    "schedule": "By appointment",
+    "local": "8238",
+    "phone": "09176339229",
+    "specialty": null
+  },
+  {
+    "department": "psychiatry",
+    "firstName": "Aimee",
+    "lastName": "Chua",
+    "room": "SP2 249",
+    "schedule": "By appointment",
+    "local": "8249",
+    "phone": "09278146188",
+    "specialty": null
+  },
+  {
+    "department": "psychiatry",
+    "firstName": "Rowena",
+    "lastName": "Cosca",
+    "room": "SM 12",
+    "schedule": "Mon-Tue-Thu by appt. Wed 1pm Fri-Sat 2pm onwards by appt.",
+    "local": null,
+    "phone": "09209043984 / 09109598192 / 09481251583",
+    "specialty": null
+  },
+  {
+    "department": "psychiatry",
+    "firstName": "Henrietta",
+    "lastName": "Española",
+    "room": "SP2 238",
+    "schedule": "Mon-Sat except Wed by appointment",
+    "local": "8238",
+    "phone": "09176339229",
+    "specialty": null
+  },
+  {
+    "department": "psychiatry",
+    "firstName": "Ruel",
+    "lastName": "Malata",
+    "room": "SP 249",
+    "schedule": "By appointment",
+    "local": "8249",
+    "phone": "09278146188",
+    "specialty": null
+  },
+  {
+    "department": "radiation-oncology",
+    "firstName": "Dennis",
+    "lastName": "Doromal",
+    "room": "CC Ground Flr",
+    "schedule": "By appointment",
+    "local": "2310",
+    "phone": null,
+    "specialty": null
+  },
+  {
+    "department": "rehabilitation-medicine",
+    "firstName": "Minda Marie",
+    "lastName": "Cabrera",
+    "room": "SP3 306",
+    "schedule": "Mon-Fri 12nn onwards",
+    "local": "8306",
+    "phone": "09300600193",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Ruperto III",
+    "lastName": "Abellon",
+    "room": "SP2 239",
+    "schedule": "Mon-Wed-Fri 10am-12nn & 1pm-3pm by appt.",
+    "local": "8239",
+    "phone": "09338515344",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Roberto",
+    "lastName": "Alfabeto",
+    "room": "SM 27",
+    "schedule": "Mon-Fri 10am-5pm Sat 10am-12nn",
+    "local": null,
+    "phone": "3362111 / 09338542961 / 09508227703 / 09177234600",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Feje",
+    "lastName": "Alogon",
+    "room": "SP2 210",
+    "schedule": "Mon-Fri except Wed 10am-2pm",
+    "local": "8210",
+    "phone": "09671628656",
+    "specialty": "Urology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Karla Teresa",
+    "lastName": "Araneta",
+    "room": "SP3 305",
+    "schedule": "Mon & Sat 9am-11:30am Tue 1pm-3pm Wed 1pm-3pm",
+    "local": "6334",
+    "phone": "09619881083",
+    "specialty": "Orthopedics"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Steven",
+    "lastName": "Bacalian",
+    "room": "SP2 244",
+    "schedule": "Mon-Fri by appointment Sat 9am-12nn",
+    "local": "8244",
+    "phone": "09266885965",
+    "specialty": "Neurosurgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Romulo Jr.",
+    "lastName": "Barrameda",
+    "room": "SM 11",
+    "schedule": "Wed 10am-12nn",
+    "local": "2201",
+    "phone": "09109598192",
+    "specialty": "Transplant & Vascular Surgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Nestor",
+    "lastName": "Cercado",
+    "room": "SP 202",
+    "schedule": "By appointment",
+    "local": "8202",
+    "phone": "09628093949",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Ryan Ed",
+    "lastName": "Comuelo",
+    "room": "SP2 208",
+    "schedule": "Tue-Thu 12nn-1pm",
+    "local": "8208",
+    "phone": "09076078246 / 09274002491",
+    "specialty": "Laparoscopic & General Surgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Luis Serafin Thomas III",
+    "lastName": "Dabao",
+    "room": "SM 4",
+    "schedule": "Mon-Fri 9:30am-4pm Sat 10am-2pm",
+    "local": "6210",
+    "phone": "09263141040",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Karen Hope",
+    "lastName": "Dalmacio",
+    "room": "SP2 256",
+    "schedule": "By appointment",
+    "local": "8256",
+    "phone": "09165782385",
+    "specialty": "Breast Surgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Bryan",
+    "lastName": "Evangelista",
+    "room": "SP2 255",
+    "schedule": "Tue-Wed-Fri 10am-2pm Sat by appointment",
+    "local": "6225",
+    "phone": "09338606709 / 09688728365",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Gaudencio Jr.",
+    "lastName": "Franco",
+    "room": "SP2 212",
+    "schedule": "Mon-Fri 9am-12nn",
+    "local": "8212",
+    "phone": "09070715489",
+    "specialty": "Hepatobiliary, Pancreatic & Upper Gastrointestinal Surgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Venerio",
+    "lastName": "Gasataya",
+    "room": "SM 11",
+    "schedule": "Wed 10am-12nn by appointment",
+    "local": "2201",
+    "phone": "09109598192",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "John II",
+    "lastName": "Gaw Te",
+    "room": "SP2 256",
+    "schedule": "By appointment",
+    "local": "8256",
+    "phone": "09165782385",
+    "specialty": "Neurosurgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "John Alvin",
+    "lastName": "Gellangarin",
+    "room": "SP2 218",
+    "schedule": "Mon 1pm-3pm Tue-Thu-Sat 10am-12nn",
+    "local": "8218",
+    "phone": "09517373864 / 09231795650 / FB: drvinORTHO",
+    "specialty": "Orthopedics"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Lauro Kordel",
+    "lastName": "Gonzales",
+    "room": "SP3 305",
+    "schedule": "Mon 1:30pm-4pm Wed by appt. Fri 9am-11:30am",
+    "local": "6334",
+    "phone": "09693804019",
+    "specialty": "Orthopedics"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Jose Nemesio",
+    "lastName": "Granada",
+    "room": "SP2 244",
+    "schedule": "Tue-Thu-Fri 11am-12:30pm by appointment",
+    "local": "8244",
+    "phone": "09266885965",
+    "specialty": "Colorectal & General Surgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Ryan",
+    "lastName": "Halili",
+    "room": "SP2 246",
+    "schedule": "Tue & Thu 12nn-1pm",
+    "local": "8246",
+    "phone": "09296466315",
+    "specialty": "Urology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Eshre Rei",
+    "lastName": "Jucal",
+    "room": "209",
+    "schedule": "Saturday 1pm-3pm",
+    "local": "8209",
+    "phone": "09567601107 / 09981804308",
+    "specialty": "Orthopedics"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Ken Hilario III",
+    "lastName": "Lapastora",
+    "room": "SP2 236",
+    "schedule": "Mon 1pm-4pm Tue-Thu-Sat 10am-12nn Wed-Fri 10am-4pm",
+    "local": "8236",
+    "phone": "09630749301 / 09175252301",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Juliene",
+    "lastName": "Latriz-Certeza",
+    "room": "SP2 216",
+    "schedule": "Mon 12nn-3pm Tue-Fri 10am-12nn by appointment",
+    "local": "8216",
+    "phone": "09386657911 / 09165214605",
+    "specialty": "Surgical Oncology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Amado Jr.",
+    "lastName": "Lavalle",
+    "room": "SM 9",
+    "schedule": "Mon-Sat 9am-1pm (accepts walk-in)",
+    "local": "6360",
+    "phone": "3511254 / 09561767257 / 09156048449",
+    "specialty": "Surgical Oncology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Glenn",
+    "lastName": "Maclang",
+    "room": "SP2 243",
+    "schedule": "Mon-Sat 10am-12nn only",
+    "local": null,
+    "phone": "3331248 / 09285875175",
+    "specialty": "Urology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Leo",
+    "lastName": "Malunes",
+    "room": "SP2 213",
+    "schedule": "By appointment",
+    "local": "8213",
+    "phone": "09107065888 / 09338687927",
+    "specialty": "Thoraco Cardiovascular Surgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Edrik Luke",
+    "lastName": "Pialago",
+    "room": "SP2 256",
+    "schedule": "Mon-Tue-Wed 1pm-4pm",
+    "local": "8256",
+    "phone": "09165782385",
+    "specialty": "Head & Neck"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Abraham",
+    "lastName": "Saad",
+    "room": "SP2 213",
+    "schedule": "Mon & Wed 2pm-4 pm",
+    "local": "8213",
+    "phone": "09107065888",
+    "specialty": "Orthopedics"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Raul",
+    "lastName": "Sancho",
+    "room": "SP2 203",
+    "schedule": "Mon-Sat 10am-2pm",
+    "local": "8203",
+    "phone": "09544873110",
+    "specialty": "Urology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Marben",
+    "lastName": "Solon",
+    "room": "SP2 231",
+    "schedule": "Mon-Sat 8am-5pm",
+    "local": "8231",
+    "phone": "09171226336 / 09979815218",
+    "specialty": null
+  },
+  {
+    "department": "surgery",
+    "firstName": "Marben",
+    "lastName": "Solon",
+    "room": "SP2 231",
+    "schedule": "Mon-Sat 8am-5pm",
+    "local": "8231",
+    "phone": "09214472596 / 09105277077",
+    "specialty": "Laparoscopic & General Surgery"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Pedro Jr.",
+    "lastName": "Tingson",
+    "room": "SM 6",
+    "schedule": "Mon-Sat by appointment",
+    "local": "6204",
+    "phone": "3376449 / 09563166045",
+    "specialty": "Urology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Juan Manuel",
+    "lastName": "Tirol",
+    "room": "SP2 213",
+    "schedule": "Tue & Thu 2pm-4pm Sat 10am-12nn",
+    "local": "8213",
+    "phone": "09107065888",
+    "specialty": "Urology"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Gibby",
+    "lastName": "Urbano",
+    "room": "SP2 246",
+    "schedule": "Mon-Wed-Fri 9am-12nn",
+    "local": "8246",
+    "phone": "09452631964",
+    "specialty": "Orthopedics"
+  },
+  {
+    "department": "surgery",
+    "firstName": "Jessie",
+    "lastName": "Uy",
+    "room": "SP2 232",
+    "schedule": "Mon-Wed-Fri 9am-12nn Sat by appointment",
+    "local": "8232",
+    "phone": "09426408585",
+    "specialty": null
+  }
 ]

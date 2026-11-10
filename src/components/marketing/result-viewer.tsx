@@ -1,7 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { RESULT_VIEWER } from "@/components/marketing/site-data";
+import { RESULT_VIEWER_IMAGES } from "@/components/marketing/site-images";
 import { SectionHeading } from "@/components/marketing/section-heading";
 
 /**
@@ -21,13 +23,27 @@ export function ResultViewer({ showHeading = true }: { showHeading?: boolean }) 
           />
         )}
         <ul className="grid grid-cols-2 gap-3 md:grid-cols-3">
-          {RESULT_VIEWER.map(({ label, description, href, icon: Icon, external }) => (
+          {RESULT_VIEWER.map(({ label, description, href, icon: Icon, external }) => {
+            const image = RESULT_VIEWER_IMAGES[href];
+            return (
             <li key={label}>
               <Card className="group relative h-full transition-all hover:-translate-y-0.5 hover:shadow-lg focus-within:ring-2 focus-within:ring-ring">
+                {image && (
+                  <Image
+                    src={image.src}
+                    width={image.width}
+                    height={image.height}
+                    alt=""
+                    sizes="(min-width: 1152px) 368px, (min-width: 768px) 33vw, 50vw"
+                    className="h-auto w-full"
+                  />
+                )}
                 <CardContent className="flex h-full flex-col gap-3 py-2 sm:flex-row sm:items-center">
-                  <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-                    <Icon className="size-5" aria-hidden />
-                  </span>
+                  {!image && (
+                    <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                      <Icon className="size-5" aria-hidden />
+                    </span>
+                  )}
                   <div className="min-w-0">
                     <p className="text-sm font-semibold">
                       {external ? (
@@ -45,7 +61,8 @@ export function ResultViewer({ showHeading = true }: { showHeading?: boolean }) 
                 </CardContent>
               </Card>
             </li>
-          ))}
+            );
+          })}
         </ul>
       </div>
     </section>

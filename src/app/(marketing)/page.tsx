@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -29,6 +30,7 @@ import {
   PATIENT_GUIDE,
   SERVICE_GROUP_LABELS,
 } from "@/components/marketing/site-data";
+import { HERO_IMAGES, HOME_CERTIFICATION_LOGOS, PARTNER_LOGOS } from "@/components/marketing/site-images";
 import { getServices, getPosts } from "@/lib/website";
 
 export default async function HomePage() {
@@ -44,6 +46,16 @@ export default async function HomePage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden bg-primary text-primary-foreground">
+        <Image
+          src={HERO_IMAGES.facade.src}
+          width={HERO_IMAGES.facade.width}
+          height={HERO_IMAGES.facade.height}
+          alt={HERO_IMAGES.facade.alt}
+          priority
+          sizes="100vw"
+          className="absolute inset-0 size-full object-cover"
+        />
+        <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/60" />
         <div aria-hidden className="absolute -right-24 -top-24 size-96 rounded-full bg-white/10" />
         <div aria-hidden className="absolute -bottom-40 left-1/3 size-96 rounded-full bg-white/5" />
         <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-[1.25fr_1fr] lg:items-center">
@@ -120,6 +132,23 @@ export default async function HomePage() {
             </CardContent>
           </Card>
         </div>
+      </section>
+
+      {/* 115th anniversary banner */}
+      <section aria-label="115th Foundation Anniversary" className="px-4 pt-8 sm:px-6">
+        <Link
+          href="/about"
+          className="mx-auto block max-w-4xl overflow-hidden rounded-xl ring-1 ring-foreground/10 transition-shadow hover:shadow-lg focus-visible:ring-2 focus-visible:ring-ring"
+        >
+          <Image
+            src={HERO_IMAGES.anniversary115.src}
+            width={HERO_IMAGES.anniversary115.width}
+            height={HERO_IMAGES.anniversary115.height}
+            alt={HERO_IMAGES.anniversary115.alt}
+            sizes="(min-width: 896px) 896px, 100vw"
+            className="h-auto w-full"
+          />
+        </Link>
       </section>
 
       {/* Stats band */}
@@ -294,6 +323,13 @@ export default async function HomePage() {
           <p className="text-sm text-muted-foreground">
             The first private hospital in Iloilo with <strong className="text-foreground">Triple ISO</strong> Integrated Management System certification
           </p>
+          <ul className="flex flex-wrap items-center justify-center gap-3">
+            {HOME_CERTIFICATION_LOGOS.map((l) => (
+              <li key={l.src} className="flex items-center rounded-xl bg-white p-2 ring-1 ring-foreground/10">
+                <Image src={l.src} width={l.width} height={l.height} alt={l.name} sizes="96px" className="h-12 w-auto" />
+              </li>
+            ))}
+          </ul>
           <ul className="flex flex-wrap justify-center gap-3">
             {ISO_STANDARDS.map((s) => (
               <li key={s.code} className="rounded-xl bg-card px-4 py-3 text-left ring-1 ring-foreground/10">
@@ -306,6 +342,14 @@ export default async function HomePage() {
               <p className="text-xs text-muted-foreground">APEX tertiary general hospital</p>
             </li>
           </ul>
+          <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-muted-foreground">
+            <span>In partnership with</span>
+            {PARTNER_LOGOS.map((l) => (
+              <span key={l.src} className="flex items-center gap-2 rounded-xl bg-white p-2 ring-1 ring-foreground/10">
+                <Image src={l.src} width={l.width} height={l.height} alt={l.name} sizes="48px" className="h-12 w-auto" />
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
