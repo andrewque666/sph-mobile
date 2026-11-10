@@ -1,0 +1,38 @@
+# Local parity with the Railway deployment. Railway itself does not use this
+# file — the app service builds the Dockerfile and Postgres is Railway's
+# managed database (with its volume).
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: "sph"
+      POSTGRES_PASSWORD: "sph"
+      POSTGRES_DB: "sph"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sph -d sph"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: "http://localhost:3000"
+    environment:
+      PORT: "8080"
+      DATABASE_URL: "postgresql://sph:sph@db:5432/sph"
+      AUTH_SECRET: "dev-only-auth-secret-change-me-in-production"
+    ports:
+      - "3000:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres-data:
